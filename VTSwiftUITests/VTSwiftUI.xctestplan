@@ -1,0 +1,23 @@
+{
+  "configurations" : [
+    {
+      "id" : "3F22188B-48CB-4FB3-BC66-CF3B8D2B3C60",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:VTSwiftUI.xcodeproj",
+      "identifier" : "F35F0D48273DD2B30097B542",
+      "name" : "VTSwiftUI"
+    }
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}

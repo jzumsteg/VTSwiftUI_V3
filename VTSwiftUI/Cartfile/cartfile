@@ -1,0 +1,6 @@
+# # sign - a comment
+#github "marmelroy/Zip"
+#github "ashleymills/Reachability.swift"
+#github "devicekit/DeviceKit" ~> 2.0
+github "ccgus/fmdb"
+#github "DeclarativeHub/Bond"
