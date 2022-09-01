@@ -99,4 +99,30 @@ class AutoViewModel: ObservableObject {
         answerTimer.invalidate()
         drillTimer.invalidate()
     }
+    
+    func translationToDisplay(verb: Verb, atAnswer: Bool) -> String {
+        var retStr = String()
+        var answerString = String()
+        if Params.shared.translationWhat == .verbform {
+            answerString = verb.translation
+        }
+        else {
+            answerString = verb.english
+        }
+        switch Params.shared.translationWhen {
+        case .atQuiz:
+            retStr = answerString
+        case .atAnswer:
+            if atAnswer == false {
+                retStr = ""
+            }
+            else {
+                retStr = answerString
+            }
+        case .never:
+            retStr = ""
+        } // switch
+        return  retStr
+
+    }
 }

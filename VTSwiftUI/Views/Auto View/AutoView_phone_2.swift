@@ -41,7 +41,8 @@ struct AutoView_phone: View {
                             .frame(height: 250.0)
                             .fixedSize(horizontal: false, vertical: true)
                         
-                        VerbAnswerView(answer: model.displayAnswer, translation: model.displayTranslation)
+//                        VerbAnswerView(answer: model.displayAnswer, translation: model.displayTranslation)
+                        VerbAnswerView(answer: model.displayAnswer, translation:  model.translationToDisplay(verb: verbGenerator.displayVerb, atAnswer: showAnswerSwitch))
                             .background(Color.clear)
 //                            .border(Color.red)
                     } // VStack:37
@@ -50,10 +51,17 @@ struct AutoView_phone: View {
                     Spacer()
                     
                     Button(action: {
-                        showAnswerSwitch.toggle()
-                        if showAnswerSwitch == false {
-                            verbGenerator.getVerb()
+                        Log.print("Inner answer switch pressed, displayMode = \(displayMode == .quizShowing ? ".quizShowing" : ".answerShowing")")
+                        if model.displayMode == .quizShowing {
+                            model.showAnswer()
                         }
+                        else {   // .answerShowing
+                            model.newVerb()
+                        }
+//                                showAnswerSwitch.toggle()
+//                                if showAnswerSwitch == false {
+//                                    verbGenerator.getVerb()
+//                                }
                     }) {
                         Text("")
                             .font(.system(size: 16, weight: .medium , design: .rounded))

@@ -63,7 +63,9 @@ struct AutoView_pad: View {
                                                 .frame(height: 250.0)
                                                 .fixedSize(horizontal: false, vertical: true)
                                             
-                                            VerbAnswerView(answer: model.displayAnswer, translation: model.displayTranslation)
+//                                            VerbAnswerView(answer: model.displayAnswer, translation: model.displayTranslation)
+                                        VerbAnswerView(answer: model.displayAnswer, translation:  model.translationToDisplay(verb: verbGenerator.displayVerb, atAnswer: showAnswerSwitch))
+
                                                 .background(Color.clear)
 
                                     } // VStack:58
@@ -77,11 +79,17 @@ struct AutoView_pad: View {
                             //                            .border(Color.red)
                             
                             Button(action: {
-                                Log.print("Inner answer switch pressed")
-                                showAnswerSwitch.toggle()
-                                if showAnswerSwitch == false {
-                                    verbGenerator.getVerb()
+                                Log.print("Inner answer switch pressed, displayMode = \(displayMode == .quizShowing ? ".quizShowing" : ".answerShowing")")
+                                if model.displayMode == .quizShowing {
+                                    model.showAnswer()
                                 }
+                                else {   // .answerShowing
+                                    model.newVerb()
+                                }
+//                                showAnswerSwitch.toggle()
+//                                if showAnswerSwitch == false {
+//                                    verbGenerator.getVerb()
+//                                }
                             }) {
                                 Text("")
                                     .font(.system(size: 16, weight: .medium , design: .rounded))
