@@ -80,15 +80,3 @@ struct Endings {
     static var ending2 = "-ere"
     static var ending3 = "-ire"
 }
-
-//var simpleTenseStrings:[String] = ["All Simple Tenses",kTense1,kTense2,kTense3,kTense4,kTense5,kTense6,
-//                                   kTense7,kTense16]
-//var compoundTenseStrings: [String] = ["All Compound Tenses",kTense8, kTense9, kTense10, kTense11, kTense12, kTense13, kTense14]
-//var endingStrings: [String] = ["All Verb Endings","-are","-ere","-ire"]
-//var personStrings: [String] = ["All Persons/numbers",kPerson1, kPerson2, kPerson3, kPerson4, kPerson5, kPerson6, kPerson7, kPerson8, kPerson9, kPerson10, kPerson11]
-//let personStringArray = personStrings
-//var typeStrings: [String] = ["All Verb Types",
-//                             "Regular","Irregular","Stem-changing","Ortho-changing",
-//                             "Reflexive"]
-//var allTenseStrings = simpleTenseStrings + compoundTenseStrings + endingStrings + personStrings + typeStrings
-//let tenseStringArray = allTenseStrings

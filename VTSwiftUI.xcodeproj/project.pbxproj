@@ -185,12 +185,6 @@
 		F35F0D54273DD2BF0097B542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F0D53273DD2BF0097B542 /* Preview Assets.xcassets */; };
 		F35F0D68273DD2C60097B542 /* VTSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D67273DD2C60097B542 /* VTSwiftUIUITests.swift */; };
 		F35F0D6A273DD2C60097B542 /* VTSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D69273DD2C60097B542 /* VTSwiftUIUITestsLaunchTests.swift */; };
-		F36B2C1A28C3C6A700182DE5 /* german.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1628C3C6A600182DE5 /* german.sqlite3 */; };
-		F36B2C1B28C3C6A700182DE5 /* german.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1628C3C6A600182DE5 /* german.sqlite3 */; };
-		F36B2C1E28C3C6A700182DE5 /* italianverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1828C3C6A700182DE5 /* italianverbs.sqlite3 */; };
-		F36B2C1F28C3C6A700182DE5 /* italianverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1828C3C6A700182DE5 /* italianverbs.sqlite3 */; };
-		F36B2C2028C3C6A700182DE5 /* germanverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1928C3C6A700182DE5 /* germanverbs.sqlite3 */; };
-		F36B2C2128C3C6A700182DE5 /* germanverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1928C3C6A700182DE5 /* germanverbs.sqlite3 */; };
 		F36B2C2428C3C6CB00182DE5 /* VerbLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F81D2788F29F00CDCBEA /* VerbLists.swift */; };
 		F36B2C2528C3C6CB00182DE5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D7E273DE2D90097B542 /* SettingsView.swift */; };
 		F36B2C2628C3C6CB00182DE5 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43027CAFF0A00D145B8 /* MailView.swift */; };
@@ -295,15 +289,12 @@
 		F36B2C8C28C3C6CB00182DE5 /* FMDB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34AF17927417C6E00E87BEA /* FMDB.xcframework */; };
 		F36B2C8E28C3C6CB00182DE5 /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42C27CA942E00D145B8 /* info.html */; };
 		F36B2C8F28C3C6CB00182DE5 /* sampleConjugation.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42027C9887F00D145B8 /* sampleConjugation.html */; };
-		F36B2C9128C3C6CB00182DE5 /* italianverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1828C3C6A700182DE5 /* italianverbs.sqlite3 */; };
-		F36B2C9228C3C6CB00182DE5 /* germanverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1928C3C6A700182DE5 /* germanverbs.sqlite3 */; };
 		F36B2C9328C3C6CB00182DE5 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42127C9887F00D145B8 /* help.html */; };
 		F36B2C9428C3C6CB00182DE5 /* frenchverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1728C3C6A600182DE5 /* frenchverbs.sqlite3 */; };
 		F36B2C9628C3C6CB00182DE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F0D53273DD2BF0097B542 /* Preview Assets.xcassets */; };
 		F36B2C9728C3C6CB00182DE5 /* push.sh in Resources */ = {isa = PBXBuildFile; fileRef = F35B92D128BA795C00A1C09A /* push.sh */; };
 		F36B2C9828C3C6CB00182DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F0D50273DD2BE0097B542 /* Assets.xcassets */; };
 		F36B2C9928C3C6CB00182DE5 /* changes.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42627C9889B00D145B8 /* changes.html */; };
-		F36B2C9A28C3C6CB00182DE5 /* german.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1628C3C6A600182DE5 /* german.sqlite3 */; };
 		F36B2CA328C3C6DF00182DE5 /* VerbLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F81D2788F29F00CDCBEA /* VerbLists.swift */; };
 		F36B2CA428C3C6DF00182DE5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D7E273DE2D90097B542 /* SettingsView.swift */; };
 		F36B2CA528C3C6DF00182DE5 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43027CAFF0A00D145B8 /* MailView.swift */; };
@@ -409,13 +400,11 @@
 		F36B2D0D28C3C6DF00182DE5 /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42C27CA942E00D145B8 /* info.html */; };
 		F36B2D0E28C3C6DF00182DE5 /* sampleConjugation.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42027C9887F00D145B8 /* sampleConjugation.html */; };
 		F36B2D1028C3C6DF00182DE5 /* italianverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1828C3C6A700182DE5 /* italianverbs.sqlite3 */; };
-		F36B2D1128C3C6DF00182DE5 /* germanverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1928C3C6A700182DE5 /* germanverbs.sqlite3 */; };
 		F36B2D1228C3C6DF00182DE5 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42127C9887F00D145B8 /* help.html */; };
 		F36B2D1528C3C6DF00182DE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F0D53273DD2BF0097B542 /* Preview Assets.xcassets */; };
 		F36B2D1628C3C6DF00182DE5 /* push.sh in Resources */ = {isa = PBXBuildFile; fileRef = F35B92D128BA795C00A1C09A /* push.sh */; };
 		F36B2D1728C3C6DF00182DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F0D50273DD2BE0097B542 /* Assets.xcassets */; };
 		F36B2D1828C3C6DF00182DE5 /* changes.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42627C9889B00D145B8 /* changes.html */; };
-		F36B2D1928C3C6DF00182DE5 /* german.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1628C3C6A600182DE5 /* german.sqlite3 */; };
 		F36B2D2228C3C6EA00182DE5 /* VerbLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F81D2788F29F00CDCBEA /* VerbLists.swift */; };
 		F36B2D2328C3C6EA00182DE5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D7E273DE2D90097B542 /* SettingsView.swift */; };
 		F36B2D2428C3C6EA00182DE5 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43027CAFF0A00D145B8 /* MailView.swift */; };
@@ -520,7 +509,6 @@
 		F36B2D8A28C3C6EA00182DE5 /* FMDB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34AF17927417C6E00E87BEA /* FMDB.xcframework */; };
 		F36B2D8C28C3C6EA00182DE5 /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42C27CA942E00D145B8 /* info.html */; };
 		F36B2D8D28C3C6EA00182DE5 /* sampleConjugation.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42027C9887F00D145B8 /* sampleConjugation.html */; };
-		F36B2D8F28C3C6EA00182DE5 /* italianverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1828C3C6A700182DE5 /* italianverbs.sqlite3 */; };
 		F36B2D9028C3C6EA00182DE5 /* germanverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1928C3C6A700182DE5 /* germanverbs.sqlite3 */; };
 		F36B2D9128C3C6EA00182DE5 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42127C9887F00D145B8 /* help.html */; };
 		F36B2D9428C3C6EA00182DE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F0D53273DD2BF0097B542 /* Preview Assets.xcassets */; };
@@ -535,6 +523,9 @@
 		F36B2DAE28C3C9AF00182DE5 /* Globals_Verbi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19727418DB000E87BEA /* Globals_Verbi.swift */; };
 		F36B2DAF28C3C9B400182DE5 /* Globals_Verben.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19927418DB000E87BEA /* Globals_Verben.swift */; };
 		F36B2DB128C3D20B00182DE5 /* Verbes-SettingselectionView.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B2DB028C3D20B00182DE5 /* Verbes-SettingselectionView.swift.swift */; };
+		F36B2DB328C3F8B000182DE5 /* Verbi-SettingsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B2DB228C3F8B000182DE5 /* Verbi-SettingsSelectionView.swift */; };
+		F36B2DB428C4007400182DE5 /* italian.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F31C7DDD2740312800110D85 /* italian.sqlite3 */; };
+		F36B2DB628C4063A00182DE5 /* Verben-SettingsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B2DB528C4063A00182DE5 /* Verben-SettingsSelectionView.swift */; };
 		F36B9E4727B976A3006895DD /* DisplayOptionsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E4627B976A3006895DD /* DisplayOptionsView2.swift */; };
 		F36B9E4827B976A3006895DD /* DisplayOptionsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E4627B976A3006895DD /* DisplayOptionsView2.swift */; };
 		F36B9E8927BADA19006895DD /* DrillViewSettingsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E8827BADA19006895DD /* DrillViewSettingsButtonView.swift */; };
@@ -758,6 +749,8 @@
 		F36B2D9E28C3C6EA00182DE5 /* Verbos copy4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Verbos copy4-Info.plist"; path = "/Volumes/User Drive/Development/ios/VTSwiftUI_V3/Verbos copy4-Info.plist"; sourceTree = "<absolute>"; };
 		F36B2DA428C3C93B00182DE5 /* SampleConjugation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SampleConjugation.html; sourceTree = "<group>"; };
 		F36B2DB028C3D20B00182DE5 /* Verbes-SettingselectionView.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Verbes-SettingselectionView.swift.swift"; sourceTree = "<group>"; };
+		F36B2DB228C3F8B000182DE5 /* Verbi-SettingsSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Verbi-SettingsSelectionView.swift"; sourceTree = "<group>"; };
+		F36B2DB528C4063A00182DE5 /* Verben-SettingsSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Verben-SettingsSelectionView.swift"; sourceTree = "<group>"; };
 		F36B9E4627B976A3006895DD /* DisplayOptionsView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayOptionsView2.swift; sourceTree = "<group>"; };
 		F36B9E8827BADA19006895DD /* DrillViewSettingsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillViewSettingsButtonView.swift; sourceTree = "<group>"; };
 		F36B9E8F27BC2518006895DD /* TestRunningButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRunningButtons.swift; sourceTree = "<group>"; };
@@ -1092,6 +1085,8 @@
 				F352D8AE275956960021A3F7 /* SettingsSelectionModel.swift */,
 				F352D8B1275956D40021A3F7 /* SettingsSelectionToggleRow.swift */,
 				F36B2DB028C3D20B00182DE5 /* Verbes-SettingselectionView.swift.swift */,
+				F36B2DB228C3F8B000182DE5 /* Verbi-SettingsSelectionView.swift */,
+				F36B2DB528C4063A00182DE5 /* Verben-SettingsSelectionView.swift */,
 			);
 			path = SettingsSelectionView;
 			sourceTree = "<group>";
@@ -1591,8 +1586,6 @@
 				F312C86D2810702700408700 /* info.html in Resources */,
 				F312C86E2810702700408700 /* sampleConjugation.html in Resources */,
 				F312C86F2810702700408700 /* spanish.sqlite3 in Resources */,
-				F36B2C1F28C3C6A700182DE5 /* italianverbs.sqlite3 in Resources */,
-				F36B2C2128C3C6A700182DE5 /* germanverbs.sqlite3 in Resources */,
 				F312C8702810702700408700 /* help.html in Resources */,
 				F36B2DAB28C3C93B00182DE5 /* SampleConjugation.html in Resources */,
 				F312C8712810702700408700 /* spanishverbs.sqlite3 in Resources */,
@@ -1600,7 +1593,6 @@
 				F35B92D328BA795C00A1C09A /* push.sh in Resources */,
 				F312C8732810702700408700 /* Assets.xcassets in Resources */,
 				F312C8742810702700408700 /* changes.html in Resources */,
-				F36B2C1B28C3C6A700182DE5 /* german.sqlite3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1611,8 +1603,6 @@
 				F36BD42D27CA942E00D145B8 /* info.html in Resources */,
 				F36BD42227C9887F00D145B8 /* sampleConjugation.html in Resources */,
 				F31C7DDF2740312800110D85 /* spanish.sqlite3 in Resources */,
-				F36B2C1E28C3C6A700182DE5 /* italianverbs.sqlite3 in Resources */,
-				F36B2C2028C3C6A700182DE5 /* germanverbs.sqlite3 in Resources */,
 				F36BD42427C9887F00D145B8 /* help.html in Resources */,
 				F36B2DAA28C3C93B00182DE5 /* SampleConjugation.html in Resources */,
 				F39C407427432FAB0007D574 /* spanishverbs.sqlite3 in Resources */,
@@ -1620,7 +1610,6 @@
 				F35B92D228BA795C00A1C09A /* push.sh in Resources */,
 				F35F0D51273DD2BE0097B542 /* Assets.xcassets in Resources */,
 				F36BD42727C9889B00D145B8 /* changes.html in Resources */,
-				F36B2C1A28C3C6A700182DE5 /* german.sqlite3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1649,8 +1638,6 @@
 			files = (
 				F36B2C8E28C3C6CB00182DE5 /* info.html in Resources */,
 				F36B2C8F28C3C6CB00182DE5 /* sampleConjugation.html in Resources */,
-				F36B2C9128C3C6CB00182DE5 /* italianverbs.sqlite3 in Resources */,
-				F36B2C9228C3C6CB00182DE5 /* germanverbs.sqlite3 in Resources */,
 				F36B2C9328C3C6CB00182DE5 /* help.html in Resources */,
 				F36B2C9428C3C6CB00182DE5 /* frenchverbs.sqlite3 in Resources */,
 				F36B2DA028C3C73800182DE5 /* french.sqlite3 in Resources */,
@@ -1658,7 +1645,6 @@
 				F36B2C9728C3C6CB00182DE5 /* push.sh in Resources */,
 				F36B2C9828C3C6CB00182DE5 /* Assets.xcassets in Resources */,
 				F36B2C9928C3C6CB00182DE5 /* changes.html in Resources */,
-				F36B2C9A28C3C6CB00182DE5 /* german.sqlite3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1669,13 +1655,12 @@
 				F36B2D0D28C3C6DF00182DE5 /* info.html in Resources */,
 				F36B2D0E28C3C6DF00182DE5 /* sampleConjugation.html in Resources */,
 				F36B2D1028C3C6DF00182DE5 /* italianverbs.sqlite3 in Resources */,
-				F36B2D1128C3C6DF00182DE5 /* germanverbs.sqlite3 in Resources */,
 				F36B2D1228C3C6DF00182DE5 /* help.html in Resources */,
 				F36B2D1528C3C6DF00182DE5 /* Preview Assets.xcassets in Resources */,
+				F36B2DB428C4007400182DE5 /* italian.sqlite3 in Resources */,
 				F36B2D1628C3C6DF00182DE5 /* push.sh in Resources */,
 				F36B2D1728C3C6DF00182DE5 /* Assets.xcassets in Resources */,
 				F36B2D1828C3C6DF00182DE5 /* changes.html in Resources */,
-				F36B2D1928C3C6DF00182DE5 /* german.sqlite3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1685,7 +1670,6 @@
 			files = (
 				F36B2D8C28C3C6EA00182DE5 /* info.html in Resources */,
 				F36B2D8D28C3C6EA00182DE5 /* sampleConjugation.html in Resources */,
-				F36B2D8F28C3C6EA00182DE5 /* italianverbs.sqlite3 in Resources */,
 				F36B2D9028C3C6EA00182DE5 /* germanverbs.sqlite3 in Resources */,
 				F36B2D9128C3C6EA00182DE5 /* help.html in Resources */,
 				F36B2D9428C3C6EA00182DE5 /* Preview Assets.xcassets in Resources */,
@@ -2249,6 +2233,7 @@
 				F36B2CBB28C3C6DF00182DE5 /* TestSettingsView.swift in Sources */,
 				F36B2CBC28C3C6DF00182DE5 /* Log2.swift in Sources */,
 				F36B2CBD28C3C6DF00182DE5 /* ContentView.swift in Sources */,
+				F36B2DB328C3F8B000182DE5 /* Verbi-SettingsSelectionView.swift in Sources */,
 				F36B2CBE28C3C6DF00182DE5 /* Params.swift in Sources */,
 				F36B2CBF28C3C6DF00182DE5 /* AutoViewModel.swift in Sources */,
 				F36B2CC028C3C6DF00182DE5 /* MKPointAnnotation_ext.swift in Sources */,
@@ -2367,6 +2352,7 @@
 				F36B2D4328C3C6EA00182DE5 /* Selection_new.swift in Sources */,
 				F36B2D4428C3C6EA00182DE5 /* FieldColorExtensions.swift in Sources */,
 				F36B2D4528C3C6EA00182DE5 /* SettingState.swift in Sources */,
+				F36B2DB628C4063A00182DE5 /* Verben-SettingsSelectionView.swift in Sources */,
 				F36B2D4628C3C6EA00182DE5 /* AddToVerbListView.swift in Sources */,
 				F36B2D4728C3C6EA00182DE5 /* FullConjugationView.swift in Sources */,
 				F36B2D4828C3C6EA00182DE5 /* DisplayOptionsView2.swift in Sources */,
