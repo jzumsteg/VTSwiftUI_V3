@@ -170,7 +170,6 @@
 		F34AF19F27418DB100E87BEA /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19827418DB000E87BEA /* Globals.swift */; };
 		F34AF1A027418DB100E87BEA /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19827418DB000E87BEA /* Globals.swift */; };
 		F34AF1A327418DB100E87BEA /* Globals_Verbos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19A27418DB000E87BEA /* Globals_Verbos.swift */; };
-		F34AF1A427418DB100E87BEA /* Globals_Verbos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19A27418DB000E87BEA /* Globals_Verbos.swift */; };
 		F34AF1A62741906800E87BEA /* FileUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF1A52741901A00E87BEA /* FileUtilities.swift */; };
 		F34AF1A72741906900E87BEA /* FileUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF1A52741901A00E87BEA /* FileUtilities.swift */; };
 		F352D8AD275955960021A3F7 /* SettingsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AC275955960021A3F7 /* SettingsSelectionView.swift */; };
@@ -186,6 +185,364 @@
 		F35F0D54273DD2BF0097B542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F0D53273DD2BF0097B542 /* Preview Assets.xcassets */; };
 		F35F0D68273DD2C60097B542 /* VTSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D67273DD2C60097B542 /* VTSwiftUIUITests.swift */; };
 		F35F0D6A273DD2C60097B542 /* VTSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D69273DD2C60097B542 /* VTSwiftUIUITestsLaunchTests.swift */; };
+		F36B2C1A28C3C6A700182DE5 /* german.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1628C3C6A600182DE5 /* german.sqlite3 */; };
+		F36B2C1B28C3C6A700182DE5 /* german.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1628C3C6A600182DE5 /* german.sqlite3 */; };
+		F36B2C1E28C3C6A700182DE5 /* italianverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1828C3C6A700182DE5 /* italianverbs.sqlite3 */; };
+		F36B2C1F28C3C6A700182DE5 /* italianverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1828C3C6A700182DE5 /* italianverbs.sqlite3 */; };
+		F36B2C2028C3C6A700182DE5 /* germanverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1928C3C6A700182DE5 /* germanverbs.sqlite3 */; };
+		F36B2C2128C3C6A700182DE5 /* germanverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1928C3C6A700182DE5 /* germanverbs.sqlite3 */; };
+		F36B2C2428C3C6CB00182DE5 /* VerbLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F81D2788F29F00CDCBEA /* VerbLists.swift */; };
+		F36B2C2528C3C6CB00182DE5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D7E273DE2D90097B542 /* SettingsView.swift */; };
+		F36B2C2628C3C6CB00182DE5 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43027CAFF0A00D145B8 /* MailView.swift */; };
+		F36B2C2728C3C6CB00182DE5 /* SettingsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AC275955960021A3F7 /* SettingsSelectionView.swift */; };
+		F36B2C2828C3C6CB00182DE5 /* VerblistInfinitiveRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F827278A4FB300CDCBEA /* VerblistInfinitiveRow.swift */; };
+		F36B2C2928C3C6CB00182DE5 /* Collection_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF189274181C700E87BEA /* Collection_ext.swift */; };
+		F36B2C2A28C3C6CB00182DE5 /* Keyboard_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF187274181C700E87BEA /* Keyboard_ext.swift */; };
+		F36B2C2B28C3C6CB00182DE5 /* String_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF185274181C700E87BEA /* String_ext.swift */; };
+		F36B2C2C28C3C6CB00182DE5 /* SettingsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD41627C5523000D145B8 /* SettingsButtonView.swift */; };
+		F36B2C2D28C3C6CB00182DE5 /* SettingsSelectionToggleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8B1275956D40021A3F7 /* SettingsSelectionToggleRow.swift */; };
+		F36B2C2E28C3C6CB00182DE5 /* FullConjugationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F8BA2791FE3200CDCBEA /* FullConjugationViewModel.swift */; };
+		F36B2C2F28C3C6CB00182DE5 /* HistoryStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD40A27C2C64100D145B8 /* HistoryStack.swift */; };
+		F36B2C3028C3C6CB00182DE5 /* SelectSingleVerbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE219279C91D900CE5734 /* SelectSingleVerbView.swift */; };
+		F36B2C3128C3C6CB00182DE5 /* AddToVerbListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFB7927A07FFB00B8DB2F /* AddToVerbListModel.swift */; };
+		F36B2C3228C3C6CB00182DE5 /* HistoryView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4D3C227CFF96100504025 /* HistoryView2.swift */; };
+		F36B2C3328C3C6CB00182DE5 /* OneVerbListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39172AA2794A88C006851AA /* OneVerbListViewModel.swift */; };
+		F36B2C3428C3C6CB00182DE5 /* AutoView_pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B040842800B6A500F8D191 /* AutoView_pad.swift */; };
+		F36B2C3528C3C6CB00182DE5 /* TestView_phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43C27CD5A9B00D145B8 /* TestView_phone.swift */; };
+		F36B2C3628C3C6CB00182DE5 /* DrillViewSettingsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E8827BADA19006895DD /* DrillViewSettingsButtonView.swift */; };
+		F36B2C3728C3C6CB00182DE5 /* FileUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF1A52741901A00E87BEA /* FileUtilities.swift */; };
+		F36B2C3828C3C6CB00182DE5 /* HTMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD41D27C986FD00D145B8 /* HTMLView.swift */; };
+		F36B2C3928C3C6CB00182DE5 /* TenseNames-verbos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67E927419EF5002D316E /* TenseNames-verbos.swift */; };
+		F36B2C3A28C3C6CB00182DE5 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19827418DB000E87BEA /* Globals.swift */; };
+		F36B2C3B28C3C6CB00182DE5 /* AutoView_phone_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312C89A2819B46700408700 /* AutoView_phone_2.swift */; };
+		F36B2C3C28C3C6CB00182DE5 /* TestSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9EA927BED45F006895DD /* TestSettingsView.swift */; };
+		F36B2C3D28C3C6CB00182DE5 /* Log2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39DBE0127F60F7F003DD0E9 /* Log2.swift */; };
+		F36B2C3E28C3C6CB00182DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D4E273DD2B40097B542 /* ContentView.swift */; };
+		F36B2C3F28C3C6CB00182DE5 /* Params.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AC0C572745D91C0060EEFC /* Params.swift */; };
+		F36B2C4028C3C6CB00182DE5 /* AutoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBD527A70D6000B8DB2F /* AutoViewModel.swift */; };
+		F36B2C4128C3C6CB00182DE5 /* MKPointAnnotation_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF186274181C700E87BEA /* MKPointAnnotation_ext.swift */; };
+		F36B2C4228C3C6CB00182DE5 /* VerblistManagementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F82A278B6BA600CDCBEA /* VerblistManagementModel.swift */; };
+		F36B2C4328C3C6CB00182DE5 /* VerbAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBDA27A9B46F00B8DB2F /* VerbAnswerView.swift */; };
+		F36B2C4428C3C6CB00182DE5 /* VerbSettingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C40602742E87C0007D574 /* VerbSettingGroup.swift */; };
+		F36B2C4528C3C6CB00182DE5 /* Selection_new.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67DB27419C23002D316E /* Selection_new.swift */; };
+		F36B2C4628C3C6CB00182DE5 /* FieldColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C406A2742EAA00007D574 /* FieldColorExtensions.swift */; };
+		F36B2C4728C3C6CB00182DE5 /* SettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C405F2742E87C0007D574 /* SettingState.swift */; };
+		F36B2C4828C3C6CB00182DE5 /* AddToVerbListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE22A279F6F5500CE5734 /* AddToVerbListView.swift */; };
+		F36B2C4928C3C6CB00182DE5 /* FullConjugationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F8B72791E86B00CDCBEA /* FullConjugationView.swift */; };
+		F36B2C4A28C3C6CB00182DE5 /* DisplayOptionsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E4627B976A3006895DD /* DisplayOptionsView2.swift */; };
+		F36B2C4B28C3C6CB00182DE5 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBC727A4A89000B8DB2F /* ActivityIndicator.swift */; };
+		F36B2C4C28C3C6CB00182DE5 /* TestView_pad3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD1432281DAD7400CCC674 /* TestView_pad3.swift */; };
+		F36B2C4D28C3C6CB00182DE5 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C406D2742EAA70007D574 /* Notifications.swift */; };
+		F36B2C4E28C3C6CB00182DE5 /* TestSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9EAC27BED477006895DD /* TestSettingsViewModel.swift */; };
+		F36B2C4F28C3C6CB00182DE5 /* AutoSettingsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39DBDAB27EF8177003DD0E9 /* AutoSettingsView2.swift */; };
+		F36B2C5028C3C6CB00182DE5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AC0C592745D91C0060EEFC /* Utilities.swift */; };
+		F36B2C5128C3C6CB00182DE5 /* View_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF188274181C700E87BEA /* View_ext.swift */; };
+		F36B2C5228C3C6CB00182DE5 /* VerbDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31C7DD4274029EC00110D85 /* VerbDisplayView.swift */; };
+		F36B2C5328C3C6CB00182DE5 /* VerbListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD41927C823E100D145B8 /* VerbListView.swift */; };
+		F36B2C5428C3C6CB00182DE5 /* View Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33ED71327D97AE700F5036A /* View Modifiers.swift */; };
+		F36B2C5528C3C6CB00182DE5 /* DrillView_phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6752A27FE480B0075F73D /* DrillView_phone.swift */; };
+		F36B2C5628C3C6CB00182DE5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F8BD2792000A00CDCBEA /* WebView.swift */; };
+		F36B2C5728C3C6CB00182DE5 /* TestStartButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E9127BC2543006895DD /* TestStartButtons.swift */; };
+		F36B2C5828C3C6CB00182DE5 /* Verb.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67CD27419A48002D316E /* Verb.swift */; };
+		F36B2C5928C3C6CB00182DE5 /* VerbDisplayButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F8B4278F57CE00CDCBEA /* VerbDisplayButtonsView.swift */; };
+		F36B2C5A28C3C6CB00182DE5 /* AutoSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3080A5B27B435A2006BEDF3 /* AutoSettingsViewModel.swift */; };
+		F36B2C5B28C3C6CB00182DE5 /* Verblist_noCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67E127419DF6002D316E /* Verblist_noCloud.swift */; };
+		F36B2C5C28C3C6CB00182DE5 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9EB327C05F0E006895DD /* HistoryViewModel.swift */; };
+		F36B2C5D28C3C6CB00182DE5 /* DrillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B9E59027B182DB00AB5149 /* DrillViewModel.swift */; };
+		F36B2C5E28C3C6CB00182DE5 /* MainScreensViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312C88628161A7D00408700 /* MainScreensViewModifier.swift */; };
+		F36B2C5F28C3C6CB00182DE5 /* SettingsSelectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AE275956960021A3F7 /* SettingsSelectionModel.swift */; };
+		F36B2C6028C3C6CB00182DE5 /* VerbGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67CE27419A48002D316E /* VerbGenerator.swift */; };
+		F36B2C6128C3C6CB00182DE5 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E9727BC706F006895DD /* TestViewModel.swift */; };
+		F36B2C6228C3C6CB00182DE5 /* ViewOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C40702742EB160007D574 /* ViewOptions.swift */; };
+		F36B2C6328C3C6CB00182DE5 /* SelectDrillSourceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE224279DF25400CE5734 /* SelectDrillSourceModel.swift */; };
+		F36B2C6428C3C6CB00182DE5 /* ViewStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE21B279C94E900CE5734 /* ViewStyles.swift */; };
+		F36B2C6528C3C6CB00182DE5 /* TestRunningButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E8F27BC2518006895DD /* TestRunningButtons.swift */; };
+		F36B2C6628C3C6CB00182DE5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AC0C552745D9090060EEFC /* Color.swift */; };
+		F36B2C6728C3C6CB00182DE5 /* OneVerbListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F866278E01C800CDCBEA /* OneVerbListView.swift */; };
+		F36B2C6828C3C6CB00182DE5 /* Environmental Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFB7B27A0ABB200B8DB2F /* Environmental Objects.swift */; };
+		F36B2C6928C3C6CB00182DE5 /* TestEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9EA527BDB509006895DD /* TestEnvironment.swift */; };
+		F36B2C6A28C3C6CB00182DE5 /* TenseLocaleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C1C8D527DFA3DD0006431E /* TenseLocaleViewModel.swift */; };
+		F36B2C6B28C3C6CB00182DE5 /* SelectDrillSourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39172B3279A1864006851AA /* SelectDrillSourceView.swift */; };
+		F36B2C6C28C3C6CB00182DE5 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67CC27419A48002D316E /* DB.swift */; };
+		F36B2C6D28C3C6CB00182DE5 /* TenseNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30382B82741D8FE0087EE03 /* TenseNames.swift */; };
+		F36B2C6F28C3C6CB00182DE5 /* SettingsViewButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD40D27C2F57700D145B8 /* SettingsViewButtonModifier.swift */; };
+		F36B2C7028C3C6CB00182DE5 /* AutoViewAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBDC27A9E68700B8DB2F /* AutoViewAnswer.swift */; };
+		F36B2C7128C3C6CB00182DE5 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE221279DDA4700CE5734 /* ViewModifiers.swift */; };
+		F36B2C7228C3C6CB00182DE5 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD143C2825BF6600CCC674 /* Orientation.swift */; };
+		F36B2C7328C3C6CB00182DE5 /* ConjugationChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD41027C3F87A00D145B8 /* ConjugationChoiceView.swift */; };
+		F36B2C7428C3C6CB00182DE5 /* AutoViewSettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43927CD520F00D145B8 /* AutoViewSettingsButton.swift */; };
+		F36B2C7528C3C6CB00182DE5 /* TestSettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E9327BC2562006895DD /* TestSettingsButton.swift */; };
+		F36B2C7628C3C6CB00182DE5 /* DisplayOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3080A6127B7201D006BEDF3 /* DisplayOptionsModel.swift */; };
+		F36B2C7728C3C6CB00182DE5 /* SelectSingleVerbModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE21D279CBB3900CE5734 /* SelectSingleVerbModel.swift */; };
+		F36B2C7828C3C6CB00182DE5 /* HistoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD40827C1B89600D145B8 /* HistoryRow.swift */; };
+		F36B2C7928C3C6CB00182DE5 /* UDefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67ED2741A04A002D316E /* UDefs.swift */; };
+		F36B2C7A28C3C6CB00182DE5 /* enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30382BB2741DF200087EE03 /* enumerations.swift */; };
+		F36B2C7B28C3C6CB00182DE5 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF17E27417F4900E87BEA /* Log.swift */; };
+		F36B2C7C28C3C6CB00182DE5 /* TableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4D3C627D01F8900504025 /* TableTest.swift */; };
+		F36B2C7D28C3C6CB00182DE5 /* AlertToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBC627A4A89000B8DB2F /* AlertToast.swift */; };
+		F36B2C7E28C3C6CB00182DE5 /* DrillView_pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312C89628186F0100408700 /* DrillView_pad.swift */; };
+		F36B2C7F28C3C6CB00182DE5 /* VerbGeneratorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4D3BF27CEE24700504025 /* VerbGeneratorModel.swift */; };
+		F36B2C8028C3C6CB00182DE5 /* FrameSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD1425281C4AE400CCC674 /* FrameSize.swift */; };
+		F36B2C8128C3C6CB00182DE5 /* VerbState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67E227419DF6002D316E /* VerbState.swift */; };
+		F36B2C8228C3C6CB00182DE5 /* Double_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF184274181C700E87BEA /* Double_ext.swift */; };
+		F36B2C8328C3C6CB00182DE5 /* Array_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B040D6280B719400F8D191 /* Array_ext.swift */; };
+		F36B2C8428C3C6CB00182DE5 /* AllVerbSettingsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C405E2742E87C0007D574 /* AllVerbSettingsGroup.swift */; };
+		F36B2C8528C3C6CB00182DE5 /* DeviceRotationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312C88A28161A8E00408700 /* DeviceRotationViewModifier.swift */; };
+		F36B2C8628C3C6CB00182DE5 /* Infinitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39172B02794ACBD006851AA /* Infinitives.swift */; };
+		F36B2C8728C3C6CB00182DE5 /* TenseLocaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C1C8D327DFA3BF0006431E /* TenseLocaleView.swift */; };
+		F36B2C8828C3C6CB00182DE5 /* VTSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D4C273DD2B30097B542 /* VTSwiftUIApp.swift */; };
+		F36B2C8928C3C6CB00182DE5 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBC527A4A89000B8DB2F /* BlurView.swift */; };
+		F36B2C8A28C3C6CB00182DE5 /* HTMLViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD42927C98B8C00D145B8 /* HTMLViewModel.swift */; };
+		F36B2C8C28C3C6CB00182DE5 /* FMDB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34AF17927417C6E00E87BEA /* FMDB.xcframework */; };
+		F36B2C8E28C3C6CB00182DE5 /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42C27CA942E00D145B8 /* info.html */; };
+		F36B2C8F28C3C6CB00182DE5 /* sampleConjugation.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42027C9887F00D145B8 /* sampleConjugation.html */; };
+		F36B2C9128C3C6CB00182DE5 /* italianverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1828C3C6A700182DE5 /* italianverbs.sqlite3 */; };
+		F36B2C9228C3C6CB00182DE5 /* germanverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1928C3C6A700182DE5 /* germanverbs.sqlite3 */; };
+		F36B2C9328C3C6CB00182DE5 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42127C9887F00D145B8 /* help.html */; };
+		F36B2C9428C3C6CB00182DE5 /* frenchverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1728C3C6A600182DE5 /* frenchverbs.sqlite3 */; };
+		F36B2C9628C3C6CB00182DE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F0D53273DD2BF0097B542 /* Preview Assets.xcassets */; };
+		F36B2C9728C3C6CB00182DE5 /* push.sh in Resources */ = {isa = PBXBuildFile; fileRef = F35B92D128BA795C00A1C09A /* push.sh */; };
+		F36B2C9828C3C6CB00182DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F0D50273DD2BE0097B542 /* Assets.xcassets */; };
+		F36B2C9928C3C6CB00182DE5 /* changes.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42627C9889B00D145B8 /* changes.html */; };
+		F36B2C9A28C3C6CB00182DE5 /* german.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1628C3C6A600182DE5 /* german.sqlite3 */; };
+		F36B2CA328C3C6DF00182DE5 /* VerbLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F81D2788F29F00CDCBEA /* VerbLists.swift */; };
+		F36B2CA428C3C6DF00182DE5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D7E273DE2D90097B542 /* SettingsView.swift */; };
+		F36B2CA528C3C6DF00182DE5 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43027CAFF0A00D145B8 /* MailView.swift */; };
+		F36B2CA628C3C6DF00182DE5 /* SettingsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AC275955960021A3F7 /* SettingsSelectionView.swift */; };
+		F36B2CA728C3C6DF00182DE5 /* VerblistInfinitiveRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F827278A4FB300CDCBEA /* VerblistInfinitiveRow.swift */; };
+		F36B2CA828C3C6DF00182DE5 /* Collection_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF189274181C700E87BEA /* Collection_ext.swift */; };
+		F36B2CA928C3C6DF00182DE5 /* Keyboard_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF187274181C700E87BEA /* Keyboard_ext.swift */; };
+		F36B2CAA28C3C6DF00182DE5 /* String_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF185274181C700E87BEA /* String_ext.swift */; };
+		F36B2CAB28C3C6DF00182DE5 /* SettingsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD41627C5523000D145B8 /* SettingsButtonView.swift */; };
+		F36B2CAC28C3C6DF00182DE5 /* SettingsSelectionToggleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8B1275956D40021A3F7 /* SettingsSelectionToggleRow.swift */; };
+		F36B2CAD28C3C6DF00182DE5 /* FullConjugationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F8BA2791FE3200CDCBEA /* FullConjugationViewModel.swift */; };
+		F36B2CAE28C3C6DF00182DE5 /* HistoryStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD40A27C2C64100D145B8 /* HistoryStack.swift */; };
+		F36B2CAF28C3C6DF00182DE5 /* SelectSingleVerbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE219279C91D900CE5734 /* SelectSingleVerbView.swift */; };
+		F36B2CB028C3C6DF00182DE5 /* AddToVerbListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFB7927A07FFB00B8DB2F /* AddToVerbListModel.swift */; };
+		F36B2CB128C3C6DF00182DE5 /* HistoryView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4D3C227CFF96100504025 /* HistoryView2.swift */; };
+		F36B2CB228C3C6DF00182DE5 /* OneVerbListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39172AA2794A88C006851AA /* OneVerbListViewModel.swift */; };
+		F36B2CB328C3C6DF00182DE5 /* AutoView_pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B040842800B6A500F8D191 /* AutoView_pad.swift */; };
+		F36B2CB428C3C6DF00182DE5 /* TestView_phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43C27CD5A9B00D145B8 /* TestView_phone.swift */; };
+		F36B2CB528C3C6DF00182DE5 /* DrillViewSettingsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E8827BADA19006895DD /* DrillViewSettingsButtonView.swift */; };
+		F36B2CB628C3C6DF00182DE5 /* FileUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF1A52741901A00E87BEA /* FileUtilities.swift */; };
+		F36B2CB728C3C6DF00182DE5 /* HTMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD41D27C986FD00D145B8 /* HTMLView.swift */; };
+		F36B2CB828C3C6DF00182DE5 /* TenseNames-verbos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67E927419EF5002D316E /* TenseNames-verbos.swift */; };
+		F36B2CB928C3C6DF00182DE5 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19827418DB000E87BEA /* Globals.swift */; };
+		F36B2CBA28C3C6DF00182DE5 /* AutoView_phone_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312C89A2819B46700408700 /* AutoView_phone_2.swift */; };
+		F36B2CBB28C3C6DF00182DE5 /* TestSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9EA927BED45F006895DD /* TestSettingsView.swift */; };
+		F36B2CBC28C3C6DF00182DE5 /* Log2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39DBE0127F60F7F003DD0E9 /* Log2.swift */; };
+		F36B2CBD28C3C6DF00182DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D4E273DD2B40097B542 /* ContentView.swift */; };
+		F36B2CBE28C3C6DF00182DE5 /* Params.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AC0C572745D91C0060EEFC /* Params.swift */; };
+		F36B2CBF28C3C6DF00182DE5 /* AutoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBD527A70D6000B8DB2F /* AutoViewModel.swift */; };
+		F36B2CC028C3C6DF00182DE5 /* MKPointAnnotation_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF186274181C700E87BEA /* MKPointAnnotation_ext.swift */; };
+		F36B2CC128C3C6DF00182DE5 /* VerblistManagementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F82A278B6BA600CDCBEA /* VerblistManagementModel.swift */; };
+		F36B2CC228C3C6DF00182DE5 /* VerbAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBDA27A9B46F00B8DB2F /* VerbAnswerView.swift */; };
+		F36B2CC328C3C6DF00182DE5 /* VerbSettingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C40602742E87C0007D574 /* VerbSettingGroup.swift */; };
+		F36B2CC428C3C6DF00182DE5 /* Selection_new.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67DB27419C23002D316E /* Selection_new.swift */; };
+		F36B2CC528C3C6DF00182DE5 /* FieldColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C406A2742EAA00007D574 /* FieldColorExtensions.swift */; };
+		F36B2CC628C3C6DF00182DE5 /* SettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C405F2742E87C0007D574 /* SettingState.swift */; };
+		F36B2CC728C3C6DF00182DE5 /* AddToVerbListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE22A279F6F5500CE5734 /* AddToVerbListView.swift */; };
+		F36B2CC828C3C6DF00182DE5 /* FullConjugationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F8B72791E86B00CDCBEA /* FullConjugationView.swift */; };
+		F36B2CC928C3C6DF00182DE5 /* DisplayOptionsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E4627B976A3006895DD /* DisplayOptionsView2.swift */; };
+		F36B2CCA28C3C6DF00182DE5 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBC727A4A89000B8DB2F /* ActivityIndicator.swift */; };
+		F36B2CCB28C3C6DF00182DE5 /* TestView_pad3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD1432281DAD7400CCC674 /* TestView_pad3.swift */; };
+		F36B2CCC28C3C6DF00182DE5 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C406D2742EAA70007D574 /* Notifications.swift */; };
+		F36B2CCD28C3C6DF00182DE5 /* TestSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9EAC27BED477006895DD /* TestSettingsViewModel.swift */; };
+		F36B2CCE28C3C6DF00182DE5 /* AutoSettingsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39DBDAB27EF8177003DD0E9 /* AutoSettingsView2.swift */; };
+		F36B2CCF28C3C6DF00182DE5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AC0C592745D91C0060EEFC /* Utilities.swift */; };
+		F36B2CD028C3C6DF00182DE5 /* View_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF188274181C700E87BEA /* View_ext.swift */; };
+		F36B2CD128C3C6DF00182DE5 /* VerbDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31C7DD4274029EC00110D85 /* VerbDisplayView.swift */; };
+		F36B2CD228C3C6DF00182DE5 /* VerbListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD41927C823E100D145B8 /* VerbListView.swift */; };
+		F36B2CD328C3C6DF00182DE5 /* View Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33ED71327D97AE700F5036A /* View Modifiers.swift */; };
+		F36B2CD428C3C6DF00182DE5 /* DrillView_phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6752A27FE480B0075F73D /* DrillView_phone.swift */; };
+		F36B2CD528C3C6DF00182DE5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F8BD2792000A00CDCBEA /* WebView.swift */; };
+		F36B2CD628C3C6DF00182DE5 /* TestStartButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E9127BC2543006895DD /* TestStartButtons.swift */; };
+		F36B2CD728C3C6DF00182DE5 /* Verb.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67CD27419A48002D316E /* Verb.swift */; };
+		F36B2CD828C3C6DF00182DE5 /* VerbDisplayButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F8B4278F57CE00CDCBEA /* VerbDisplayButtonsView.swift */; };
+		F36B2CD928C3C6DF00182DE5 /* AutoSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3080A5B27B435A2006BEDF3 /* AutoSettingsViewModel.swift */; };
+		F36B2CDA28C3C6DF00182DE5 /* Verblist_noCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67E127419DF6002D316E /* Verblist_noCloud.swift */; };
+		F36B2CDB28C3C6DF00182DE5 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9EB327C05F0E006895DD /* HistoryViewModel.swift */; };
+		F36B2CDC28C3C6DF00182DE5 /* DrillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B9E59027B182DB00AB5149 /* DrillViewModel.swift */; };
+		F36B2CDD28C3C6DF00182DE5 /* MainScreensViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312C88628161A7D00408700 /* MainScreensViewModifier.swift */; };
+		F36B2CDE28C3C6DF00182DE5 /* SettingsSelectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AE275956960021A3F7 /* SettingsSelectionModel.swift */; };
+		F36B2CDF28C3C6DF00182DE5 /* VerbGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67CE27419A48002D316E /* VerbGenerator.swift */; };
+		F36B2CE028C3C6DF00182DE5 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E9727BC706F006895DD /* TestViewModel.swift */; };
+		F36B2CE128C3C6DF00182DE5 /* ViewOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C40702742EB160007D574 /* ViewOptions.swift */; };
+		F36B2CE228C3C6DF00182DE5 /* SelectDrillSourceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE224279DF25400CE5734 /* SelectDrillSourceModel.swift */; };
+		F36B2CE328C3C6DF00182DE5 /* ViewStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE21B279C94E900CE5734 /* ViewStyles.swift */; };
+		F36B2CE428C3C6DF00182DE5 /* TestRunningButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E8F27BC2518006895DD /* TestRunningButtons.swift */; };
+		F36B2CE528C3C6DF00182DE5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AC0C552745D9090060EEFC /* Color.swift */; };
+		F36B2CE628C3C6DF00182DE5 /* OneVerbListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F866278E01C800CDCBEA /* OneVerbListView.swift */; };
+		F36B2CE728C3C6DF00182DE5 /* Environmental Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFB7B27A0ABB200B8DB2F /* Environmental Objects.swift */; };
+		F36B2CE828C3C6DF00182DE5 /* TestEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9EA527BDB509006895DD /* TestEnvironment.swift */; };
+		F36B2CE928C3C6DF00182DE5 /* TenseLocaleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C1C8D527DFA3DD0006431E /* TenseLocaleViewModel.swift */; };
+		F36B2CEA28C3C6DF00182DE5 /* SelectDrillSourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39172B3279A1864006851AA /* SelectDrillSourceView.swift */; };
+		F36B2CEB28C3C6DF00182DE5 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67CC27419A48002D316E /* DB.swift */; };
+		F36B2CEC28C3C6DF00182DE5 /* TenseNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30382B82741D8FE0087EE03 /* TenseNames.swift */; };
+		F36B2CEE28C3C6DF00182DE5 /* SettingsViewButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD40D27C2F57700D145B8 /* SettingsViewButtonModifier.swift */; };
+		F36B2CEF28C3C6DF00182DE5 /* AutoViewAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBDC27A9E68700B8DB2F /* AutoViewAnswer.swift */; };
+		F36B2CF028C3C6DF00182DE5 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE221279DDA4700CE5734 /* ViewModifiers.swift */; };
+		F36B2CF128C3C6DF00182DE5 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD143C2825BF6600CCC674 /* Orientation.swift */; };
+		F36B2CF228C3C6DF00182DE5 /* ConjugationChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD41027C3F87A00D145B8 /* ConjugationChoiceView.swift */; };
+		F36B2CF328C3C6DF00182DE5 /* AutoViewSettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43927CD520F00D145B8 /* AutoViewSettingsButton.swift */; };
+		F36B2CF428C3C6DF00182DE5 /* TestSettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E9327BC2562006895DD /* TestSettingsButton.swift */; };
+		F36B2CF528C3C6DF00182DE5 /* DisplayOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3080A6127B7201D006BEDF3 /* DisplayOptionsModel.swift */; };
+		F36B2CF628C3C6DF00182DE5 /* SelectSingleVerbModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE21D279CBB3900CE5734 /* SelectSingleVerbModel.swift */; };
+		F36B2CF728C3C6DF00182DE5 /* HistoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD40827C1B89600D145B8 /* HistoryRow.swift */; };
+		F36B2CF828C3C6DF00182DE5 /* UDefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67ED2741A04A002D316E /* UDefs.swift */; };
+		F36B2CF928C3C6DF00182DE5 /* enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30382BB2741DF200087EE03 /* enumerations.swift */; };
+		F36B2CFA28C3C6DF00182DE5 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF17E27417F4900E87BEA /* Log.swift */; };
+		F36B2CFB28C3C6DF00182DE5 /* TableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4D3C627D01F8900504025 /* TableTest.swift */; };
+		F36B2CFC28C3C6DF00182DE5 /* AlertToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBC627A4A89000B8DB2F /* AlertToast.swift */; };
+		F36B2CFD28C3C6DF00182DE5 /* DrillView_pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312C89628186F0100408700 /* DrillView_pad.swift */; };
+		F36B2CFE28C3C6DF00182DE5 /* VerbGeneratorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4D3BF27CEE24700504025 /* VerbGeneratorModel.swift */; };
+		F36B2CFF28C3C6DF00182DE5 /* FrameSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD1425281C4AE400CCC674 /* FrameSize.swift */; };
+		F36B2D0028C3C6DF00182DE5 /* VerbState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67E227419DF6002D316E /* VerbState.swift */; };
+		F36B2D0128C3C6DF00182DE5 /* Double_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF184274181C700E87BEA /* Double_ext.swift */; };
+		F36B2D0228C3C6DF00182DE5 /* Array_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B040D6280B719400F8D191 /* Array_ext.swift */; };
+		F36B2D0328C3C6DF00182DE5 /* AllVerbSettingsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C405E2742E87C0007D574 /* AllVerbSettingsGroup.swift */; };
+		F36B2D0428C3C6DF00182DE5 /* DeviceRotationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312C88A28161A8E00408700 /* DeviceRotationViewModifier.swift */; };
+		F36B2D0528C3C6DF00182DE5 /* Infinitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39172B02794ACBD006851AA /* Infinitives.swift */; };
+		F36B2D0628C3C6DF00182DE5 /* TenseLocaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C1C8D327DFA3BF0006431E /* TenseLocaleView.swift */; };
+		F36B2D0728C3C6DF00182DE5 /* VTSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D4C273DD2B30097B542 /* VTSwiftUIApp.swift */; };
+		F36B2D0828C3C6DF00182DE5 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBC527A4A89000B8DB2F /* BlurView.swift */; };
+		F36B2D0928C3C6DF00182DE5 /* HTMLViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD42927C98B8C00D145B8 /* HTMLViewModel.swift */; };
+		F36B2D0B28C3C6DF00182DE5 /* FMDB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34AF17927417C6E00E87BEA /* FMDB.xcframework */; };
+		F36B2D0D28C3C6DF00182DE5 /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42C27CA942E00D145B8 /* info.html */; };
+		F36B2D0E28C3C6DF00182DE5 /* sampleConjugation.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42027C9887F00D145B8 /* sampleConjugation.html */; };
+		F36B2D1028C3C6DF00182DE5 /* italianverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1828C3C6A700182DE5 /* italianverbs.sqlite3 */; };
+		F36B2D1128C3C6DF00182DE5 /* germanverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1928C3C6A700182DE5 /* germanverbs.sqlite3 */; };
+		F36B2D1228C3C6DF00182DE5 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42127C9887F00D145B8 /* help.html */; };
+		F36B2D1528C3C6DF00182DE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F0D53273DD2BF0097B542 /* Preview Assets.xcassets */; };
+		F36B2D1628C3C6DF00182DE5 /* push.sh in Resources */ = {isa = PBXBuildFile; fileRef = F35B92D128BA795C00A1C09A /* push.sh */; };
+		F36B2D1728C3C6DF00182DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F0D50273DD2BE0097B542 /* Assets.xcassets */; };
+		F36B2D1828C3C6DF00182DE5 /* changes.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42627C9889B00D145B8 /* changes.html */; };
+		F36B2D1928C3C6DF00182DE5 /* german.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1628C3C6A600182DE5 /* german.sqlite3 */; };
+		F36B2D2228C3C6EA00182DE5 /* VerbLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F81D2788F29F00CDCBEA /* VerbLists.swift */; };
+		F36B2D2328C3C6EA00182DE5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D7E273DE2D90097B542 /* SettingsView.swift */; };
+		F36B2D2428C3C6EA00182DE5 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43027CAFF0A00D145B8 /* MailView.swift */; };
+		F36B2D2528C3C6EA00182DE5 /* SettingsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AC275955960021A3F7 /* SettingsSelectionView.swift */; };
+		F36B2D2628C3C6EA00182DE5 /* VerblistInfinitiveRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F827278A4FB300CDCBEA /* VerblistInfinitiveRow.swift */; };
+		F36B2D2728C3C6EA00182DE5 /* Collection_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF189274181C700E87BEA /* Collection_ext.swift */; };
+		F36B2D2828C3C6EA00182DE5 /* Keyboard_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF187274181C700E87BEA /* Keyboard_ext.swift */; };
+		F36B2D2928C3C6EA00182DE5 /* String_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF185274181C700E87BEA /* String_ext.swift */; };
+		F36B2D2A28C3C6EA00182DE5 /* SettingsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD41627C5523000D145B8 /* SettingsButtonView.swift */; };
+		F36B2D2B28C3C6EA00182DE5 /* SettingsSelectionToggleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8B1275956D40021A3F7 /* SettingsSelectionToggleRow.swift */; };
+		F36B2D2C28C3C6EA00182DE5 /* FullConjugationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F8BA2791FE3200CDCBEA /* FullConjugationViewModel.swift */; };
+		F36B2D2D28C3C6EA00182DE5 /* HistoryStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD40A27C2C64100D145B8 /* HistoryStack.swift */; };
+		F36B2D2E28C3C6EA00182DE5 /* SelectSingleVerbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE219279C91D900CE5734 /* SelectSingleVerbView.swift */; };
+		F36B2D2F28C3C6EA00182DE5 /* AddToVerbListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFB7927A07FFB00B8DB2F /* AddToVerbListModel.swift */; };
+		F36B2D3028C3C6EA00182DE5 /* HistoryView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4D3C227CFF96100504025 /* HistoryView2.swift */; };
+		F36B2D3128C3C6EA00182DE5 /* OneVerbListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39172AA2794A88C006851AA /* OneVerbListViewModel.swift */; };
+		F36B2D3228C3C6EA00182DE5 /* AutoView_pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B040842800B6A500F8D191 /* AutoView_pad.swift */; };
+		F36B2D3328C3C6EA00182DE5 /* TestView_phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43C27CD5A9B00D145B8 /* TestView_phone.swift */; };
+		F36B2D3428C3C6EA00182DE5 /* DrillViewSettingsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E8827BADA19006895DD /* DrillViewSettingsButtonView.swift */; };
+		F36B2D3528C3C6EA00182DE5 /* FileUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF1A52741901A00E87BEA /* FileUtilities.swift */; };
+		F36B2D3628C3C6EA00182DE5 /* HTMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD41D27C986FD00D145B8 /* HTMLView.swift */; };
+		F36B2D3728C3C6EA00182DE5 /* TenseNames-verbos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67E927419EF5002D316E /* TenseNames-verbos.swift */; };
+		F36B2D3828C3C6EA00182DE5 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19827418DB000E87BEA /* Globals.swift */; };
+		F36B2D3928C3C6EA00182DE5 /* AutoView_phone_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312C89A2819B46700408700 /* AutoView_phone_2.swift */; };
+		F36B2D3A28C3C6EA00182DE5 /* TestSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9EA927BED45F006895DD /* TestSettingsView.swift */; };
+		F36B2D3B28C3C6EA00182DE5 /* Log2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39DBE0127F60F7F003DD0E9 /* Log2.swift */; };
+		F36B2D3C28C3C6EA00182DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D4E273DD2B40097B542 /* ContentView.swift */; };
+		F36B2D3D28C3C6EA00182DE5 /* Params.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AC0C572745D91C0060EEFC /* Params.swift */; };
+		F36B2D3E28C3C6EA00182DE5 /* AutoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBD527A70D6000B8DB2F /* AutoViewModel.swift */; };
+		F36B2D3F28C3C6EA00182DE5 /* MKPointAnnotation_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF186274181C700E87BEA /* MKPointAnnotation_ext.swift */; };
+		F36B2D4028C3C6EA00182DE5 /* VerblistManagementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F82A278B6BA600CDCBEA /* VerblistManagementModel.swift */; };
+		F36B2D4128C3C6EA00182DE5 /* VerbAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBDA27A9B46F00B8DB2F /* VerbAnswerView.swift */; };
+		F36B2D4228C3C6EA00182DE5 /* VerbSettingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C40602742E87C0007D574 /* VerbSettingGroup.swift */; };
+		F36B2D4328C3C6EA00182DE5 /* Selection_new.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67DB27419C23002D316E /* Selection_new.swift */; };
+		F36B2D4428C3C6EA00182DE5 /* FieldColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C406A2742EAA00007D574 /* FieldColorExtensions.swift */; };
+		F36B2D4528C3C6EA00182DE5 /* SettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C405F2742E87C0007D574 /* SettingState.swift */; };
+		F36B2D4628C3C6EA00182DE5 /* AddToVerbListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE22A279F6F5500CE5734 /* AddToVerbListView.swift */; };
+		F36B2D4728C3C6EA00182DE5 /* FullConjugationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F8B72791E86B00CDCBEA /* FullConjugationView.swift */; };
+		F36B2D4828C3C6EA00182DE5 /* DisplayOptionsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E4627B976A3006895DD /* DisplayOptionsView2.swift */; };
+		F36B2D4928C3C6EA00182DE5 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBC727A4A89000B8DB2F /* ActivityIndicator.swift */; };
+		F36B2D4A28C3C6EA00182DE5 /* TestView_pad3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD1432281DAD7400CCC674 /* TestView_pad3.swift */; };
+		F36B2D4B28C3C6EA00182DE5 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C406D2742EAA70007D574 /* Notifications.swift */; };
+		F36B2D4C28C3C6EA00182DE5 /* TestSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9EAC27BED477006895DD /* TestSettingsViewModel.swift */; };
+		F36B2D4D28C3C6EA00182DE5 /* AutoSettingsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39DBDAB27EF8177003DD0E9 /* AutoSettingsView2.swift */; };
+		F36B2D4E28C3C6EA00182DE5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AC0C592745D91C0060EEFC /* Utilities.swift */; };
+		F36B2D4F28C3C6EA00182DE5 /* View_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF188274181C700E87BEA /* View_ext.swift */; };
+		F36B2D5028C3C6EA00182DE5 /* VerbDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31C7DD4274029EC00110D85 /* VerbDisplayView.swift */; };
+		F36B2D5128C3C6EA00182DE5 /* VerbListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD41927C823E100D145B8 /* VerbListView.swift */; };
+		F36B2D5228C3C6EA00182DE5 /* View Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33ED71327D97AE700F5036A /* View Modifiers.swift */; };
+		F36B2D5328C3C6EA00182DE5 /* DrillView_phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6752A27FE480B0075F73D /* DrillView_phone.swift */; };
+		F36B2D5428C3C6EA00182DE5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F8BD2792000A00CDCBEA /* WebView.swift */; };
+		F36B2D5528C3C6EA00182DE5 /* TestStartButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E9127BC2543006895DD /* TestStartButtons.swift */; };
+		F36B2D5628C3C6EA00182DE5 /* Verb.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67CD27419A48002D316E /* Verb.swift */; };
+		F36B2D5728C3C6EA00182DE5 /* VerbDisplayButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F8B4278F57CE00CDCBEA /* VerbDisplayButtonsView.swift */; };
+		F36B2D5828C3C6EA00182DE5 /* AutoSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3080A5B27B435A2006BEDF3 /* AutoSettingsViewModel.swift */; };
+		F36B2D5928C3C6EA00182DE5 /* Verblist_noCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67E127419DF6002D316E /* Verblist_noCloud.swift */; };
+		F36B2D5A28C3C6EA00182DE5 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9EB327C05F0E006895DD /* HistoryViewModel.swift */; };
+		F36B2D5B28C3C6EA00182DE5 /* DrillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B9E59027B182DB00AB5149 /* DrillViewModel.swift */; };
+		F36B2D5C28C3C6EA00182DE5 /* MainScreensViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312C88628161A7D00408700 /* MainScreensViewModifier.swift */; };
+		F36B2D5D28C3C6EA00182DE5 /* SettingsSelectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AE275956960021A3F7 /* SettingsSelectionModel.swift */; };
+		F36B2D5E28C3C6EA00182DE5 /* VerbGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67CE27419A48002D316E /* VerbGenerator.swift */; };
+		F36B2D5F28C3C6EA00182DE5 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E9727BC706F006895DD /* TestViewModel.swift */; };
+		F36B2D6028C3C6EA00182DE5 /* ViewOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C40702742EB160007D574 /* ViewOptions.swift */; };
+		F36B2D6128C3C6EA00182DE5 /* SelectDrillSourceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE224279DF25400CE5734 /* SelectDrillSourceModel.swift */; };
+		F36B2D6228C3C6EA00182DE5 /* ViewStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE21B279C94E900CE5734 /* ViewStyles.swift */; };
+		F36B2D6328C3C6EA00182DE5 /* TestRunningButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E8F27BC2518006895DD /* TestRunningButtons.swift */; };
+		F36B2D6428C3C6EA00182DE5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AC0C552745D9090060EEFC /* Color.swift */; };
+		F36B2D6528C3C6EA00182DE5 /* OneVerbListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F866278E01C800CDCBEA /* OneVerbListView.swift */; };
+		F36B2D6628C3C6EA00182DE5 /* Environmental Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFB7B27A0ABB200B8DB2F /* Environmental Objects.swift */; };
+		F36B2D6728C3C6EA00182DE5 /* TestEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9EA527BDB509006895DD /* TestEnvironment.swift */; };
+		F36B2D6828C3C6EA00182DE5 /* TenseLocaleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C1C8D527DFA3DD0006431E /* TenseLocaleViewModel.swift */; };
+		F36B2D6928C3C6EA00182DE5 /* SelectDrillSourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39172B3279A1864006851AA /* SelectDrillSourceView.swift */; };
+		F36B2D6A28C3C6EA00182DE5 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67CC27419A48002D316E /* DB.swift */; };
+		F36B2D6B28C3C6EA00182DE5 /* TenseNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30382B82741D8FE0087EE03 /* TenseNames.swift */; };
+		F36B2D6D28C3C6EA00182DE5 /* SettingsViewButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD40D27C2F57700D145B8 /* SettingsViewButtonModifier.swift */; };
+		F36B2D6E28C3C6EA00182DE5 /* AutoViewAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBDC27A9E68700B8DB2F /* AutoViewAnswer.swift */; };
+		F36B2D6F28C3C6EA00182DE5 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE221279DDA4700CE5734 /* ViewModifiers.swift */; };
+		F36B2D7028C3C6EA00182DE5 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD143C2825BF6600CCC674 /* Orientation.swift */; };
+		F36B2D7128C3C6EA00182DE5 /* ConjugationChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD41027C3F87A00D145B8 /* ConjugationChoiceView.swift */; };
+		F36B2D7228C3C6EA00182DE5 /* AutoViewSettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43927CD520F00D145B8 /* AutoViewSettingsButton.swift */; };
+		F36B2D7328C3C6EA00182DE5 /* TestSettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E9327BC2562006895DD /* TestSettingsButton.swift */; };
+		F36B2D7428C3C6EA00182DE5 /* DisplayOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3080A6127B7201D006BEDF3 /* DisplayOptionsModel.swift */; };
+		F36B2D7528C3C6EA00182DE5 /* SelectSingleVerbModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BE21D279CBB3900CE5734 /* SelectSingleVerbModel.swift */; };
+		F36B2D7628C3C6EA00182DE5 /* HistoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD40827C1B89600D145B8 /* HistoryRow.swift */; };
+		F36B2D7728C3C6EA00182DE5 /* UDefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67ED2741A04A002D316E /* UDefs.swift */; };
+		F36B2D7828C3C6EA00182DE5 /* enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30382BB2741DF200087EE03 /* enumerations.swift */; };
+		F36B2D7928C3C6EA00182DE5 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF17E27417F4900E87BEA /* Log.swift */; };
+		F36B2D7A28C3C6EA00182DE5 /* TableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4D3C627D01F8900504025 /* TableTest.swift */; };
+		F36B2D7B28C3C6EA00182DE5 /* AlertToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBC627A4A89000B8DB2F /* AlertToast.swift */; };
+		F36B2D7C28C3C6EA00182DE5 /* DrillView_pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312C89628186F0100408700 /* DrillView_pad.swift */; };
+		F36B2D7D28C3C6EA00182DE5 /* VerbGeneratorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4D3BF27CEE24700504025 /* VerbGeneratorModel.swift */; };
+		F36B2D7E28C3C6EA00182DE5 /* FrameSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD1425281C4AE400CCC674 /* FrameSize.swift */; };
+		F36B2D7F28C3C6EA00182DE5 /* VerbState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E67E227419DF6002D316E /* VerbState.swift */; };
+		F36B2D8028C3C6EA00182DE5 /* Double_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF184274181C700E87BEA /* Double_ext.swift */; };
+		F36B2D8128C3C6EA00182DE5 /* Array_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B040D6280B719400F8D191 /* Array_ext.swift */; };
+		F36B2D8228C3C6EA00182DE5 /* AllVerbSettingsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C405E2742E87C0007D574 /* AllVerbSettingsGroup.swift */; };
+		F36B2D8328C3C6EA00182DE5 /* DeviceRotationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312C88A28161A8E00408700 /* DeviceRotationViewModifier.swift */; };
+		F36B2D8428C3C6EA00182DE5 /* Infinitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39172B02794ACBD006851AA /* Infinitives.swift */; };
+		F36B2D8528C3C6EA00182DE5 /* TenseLocaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C1C8D327DFA3BF0006431E /* TenseLocaleView.swift */; };
+		F36B2D8628C3C6EA00182DE5 /* VTSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D4C273DD2B30097B542 /* VTSwiftUIApp.swift */; };
+		F36B2D8728C3C6EA00182DE5 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFBC527A4A89000B8DB2F /* BlurView.swift */; };
+		F36B2D8828C3C6EA00182DE5 /* HTMLViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD42927C98B8C00D145B8 /* HTMLViewModel.swift */; };
+		F36B2D8A28C3C6EA00182DE5 /* FMDB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34AF17927417C6E00E87BEA /* FMDB.xcframework */; };
+		F36B2D8C28C3C6EA00182DE5 /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42C27CA942E00D145B8 /* info.html */; };
+		F36B2D8D28C3C6EA00182DE5 /* sampleConjugation.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42027C9887F00D145B8 /* sampleConjugation.html */; };
+		F36B2D8F28C3C6EA00182DE5 /* italianverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1828C3C6A700182DE5 /* italianverbs.sqlite3 */; };
+		F36B2D9028C3C6EA00182DE5 /* germanverbs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1928C3C6A700182DE5 /* germanverbs.sqlite3 */; };
+		F36B2D9128C3C6EA00182DE5 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42127C9887F00D145B8 /* help.html */; };
+		F36B2D9428C3C6EA00182DE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F0D53273DD2BF0097B542 /* Preview Assets.xcassets */; };
+		F36B2D9528C3C6EA00182DE5 /* push.sh in Resources */ = {isa = PBXBuildFile; fileRef = F35B92D128BA795C00A1C09A /* push.sh */; };
+		F36B2D9628C3C6EA00182DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F0D50273DD2BE0097B542 /* Assets.xcassets */; };
+		F36B2D9728C3C6EA00182DE5 /* changes.html in Resources */ = {isa = PBXBuildFile; fileRef = F36BD42627C9889B00D145B8 /* changes.html */; };
+		F36B2D9828C3C6EA00182DE5 /* german.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1628C3C6A600182DE5 /* german.sqlite3 */; };
+		F36B2D9F28C3C72900182DE5 /* Globals-Verbes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19627418DB000E87BEA /* Globals-Verbes.swift */; };
+		F36B2DA028C3C73800182DE5 /* french.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F31C7DDB2740312800110D85 /* french.sqlite3 */; };
+		F36B2DA628C3C93B00182DE5 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA228C3C93B00182DE5 /* help.html */; };
+		F36B2DA728C3C93B00182DE5 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA228C3C93B00182DE5 /* help.html */; };
+		F36B2DA828C3C93B00182DE5 /* changes.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA328C3C93B00182DE5 /* changes.html */; };
+		F36B2DA928C3C93B00182DE5 /* changes.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA328C3C93B00182DE5 /* changes.html */; };
+		F36B2DAA28C3C93B00182DE5 /* SampleConjugation.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA428C3C93B00182DE5 /* SampleConjugation.html */; };
+		F36B2DAB28C3C93B00182DE5 /* SampleConjugation.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA428C3C93B00182DE5 /* SampleConjugation.html */; };
+		F36B2DAC28C3C93B00182DE5 /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA528C3C93B00182DE5 /* info.html */; };
+		F36B2DAD28C3C93B00182DE5 /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA528C3C93B00182DE5 /* info.html */; };
+		F36B2DAE28C3C9AF00182DE5 /* Globals_Verbi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19727418DB000E87BEA /* Globals_Verbi.swift */; };
+		F36B2DAF28C3C9B400182DE5 /* Globals_Verben.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19927418DB000E87BEA /* Globals_Verben.swift */; };
 		F36B9E4727B976A3006895DD /* DisplayOptionsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E4627B976A3006895DD /* DisplayOptionsView2.swift */; };
 		F36B9E4827B976A3006895DD /* DisplayOptionsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E4627B976A3006895DD /* DisplayOptionsView2.swift */; };
 		F36B9E8927BADA19006895DD /* DrillViewSettingsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E8827BADA19006895DD /* DrillViewSettingsButtonView.swift */; };
@@ -397,6 +754,20 @@
 		F35F0D69273DD2C60097B542 /* VTSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F35F0D7E273DE2D90097B542 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F35F0D80273DE31A0097B542 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		F36B2C1628C3C6A600182DE5 /* german.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = german.sqlite3; sourceTree = "<group>"; };
+		F36B2C1728C3C6A600182DE5 /* frenchverbs.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = frenchverbs.sqlite3; sourceTree = "<group>"; };
+		F36B2C1828C3C6A700182DE5 /* italianverbs.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = italianverbs.sqlite3; sourceTree = "<group>"; };
+		F36B2C1928C3C6A700182DE5 /* germanverbs.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = germanverbs.sqlite3; sourceTree = "<group>"; };
+		F36B2C9F28C3C6CB00182DE5 /* Verbes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Verbes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36B2CA028C3C6CC00182DE5 /* Verbos copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Verbos copy2-Info.plist"; path = "/Volumes/User Drive/Development/ios/VTSwiftUI_V3/Verbos copy2-Info.plist"; sourceTree = "<absolute>"; };
+		F36B2D1E28C3C6DF00182DE5 /* Verbi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Verbi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36B2D1F28C3C6E000182DE5 /* Verbos copy3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Verbos copy3-Info.plist"; path = "/Volumes/User Drive/Development/ios/VTSwiftUI_V3/Verbos copy3-Info.plist"; sourceTree = "<absolute>"; };
+		F36B2D9D28C3C6EA00182DE5 /* Verben.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Verben.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36B2D9E28C3C6EA00182DE5 /* Verbos copy4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Verbos copy4-Info.plist"; path = "/Volumes/User Drive/Development/ios/VTSwiftUI_V3/Verbos copy4-Info.plist"; sourceTree = "<absolute>"; };
+		F36B2DA228C3C93B00182DE5 /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
+		F36B2DA328C3C93B00182DE5 /* changes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = changes.html; sourceTree = "<group>"; };
+		F36B2DA428C3C93B00182DE5 /* SampleConjugation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SampleConjugation.html; sourceTree = "<group>"; };
+		F36B2DA528C3C93B00182DE5 /* info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = info.html; sourceTree = "<group>"; };
 		F36B9E4627B976A3006895DD /* DisplayOptionsView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayOptionsView2.swift; sourceTree = "<group>"; };
 		F36B9E8827BADA19006895DD /* DrillViewSettingsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillViewSettingsButtonView.swift; sourceTree = "<group>"; };
 		F36B9E8F27BC2518006895DD /* TestRunningButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRunningButtons.swift; sourceTree = "<group>"; };
@@ -506,6 +877,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36B2C8B28C3C6CB00182DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36B2C8C28C3C6CB00182DE5 /* FMDB.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36B2D0A28C3C6DF00182DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36B2D0B28C3C6DF00182DE5 /* FMDB.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36B2D8928C3C6EA00182DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36B2D8A28C3C6EA00182DE5 /* FMDB.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,10 +1040,14 @@
 		F31C7DDA2740308900110D85 /* Databases */ = {
 			isa = PBXGroup;
 			children = (
-				F39C407327432FAA0007D574 /* spanishverbs.sqlite3 */,
 				F31C7DDB2740312800110D85 /* french.sqlite3 */,
+				F36B2C1728C3C6A600182DE5 /* frenchverbs.sqlite3 */,
+				F36B2C1628C3C6A600182DE5 /* german.sqlite3 */,
+				F36B2C1928C3C6A700182DE5 /* germanverbs.sqlite3 */,
 				F31C7DDD2740312800110D85 /* italian.sqlite3 */,
+				F36B2C1828C3C6A700182DE5 /* italianverbs.sqlite3 */,
 				F31C7DDC2740312800110D85 /* spanish.sqlite3 */,
+				F39C407327432FAA0007D574 /* spanishverbs.sqlite3 */,
 			);
 			path = Databases;
 			sourceTree = "<group>";
@@ -718,6 +1117,9 @@
 				F35F0D4A273DD2B30097B542 /* Products */,
 				F34AF17827417C6E00E87BEA /* Frameworks */,
 				F312C87A2810702800408700 /* Verbos copy-Info.plist */,
+				F36B2CA028C3C6CC00182DE5 /* Verbos copy2-Info.plist */,
+				F36B2D1F28C3C6E000182DE5 /* Verbos copy3-Info.plist */,
+				F36B2D9E28C3C6EA00182DE5 /* Verbos copy4-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -728,6 +1130,9 @@
 				F35F0D59273DD2C60097B542 /* VTSwiftUITests.xctest */,
 				F35F0D63273DD2C60097B542 /* VTSwiftUIUITests.xctest */,
 				F312C8792810702700408700 /* Verbos.app */,
+				F36B2C9F28C3C6CB00182DE5 /* Verbes.app */,
+				F36B2D1E28C3C6DF00182DE5 /* Verbi.app */,
+				F36B2D9D28C3C6EA00182DE5 /* Verben.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -804,6 +1209,17 @@
 				F316F8262789F6A100CDCBEA /* Verblist management */,
 			);
 			path = "Full Screen Views";
+			sourceTree = "<group>";
+		};
+		F36B2DA128C3C83000182DE5 /* Verbes */ = {
+			isa = PBXGroup;
+			children = (
+				F36B2DA328C3C93B00182DE5 /* changes.html */,
+				F36B2DA228C3C93B00182DE5 /* help.html */,
+				F36B2DA528C3C93B00182DE5 /* info.html */,
+				F36B2DA428C3C93B00182DE5 /* SampleConjugation.html */,
+			);
+			path = Verbes;
 			sourceTree = "<group>";
 		};
 		F36B9E8A27BC24B2006895DD /* Test */ = {
@@ -894,6 +1310,7 @@
 		F37E67E727419EC3002D316E /* Language-specific */ = {
 			isa = PBXGroup;
 			children = (
+				F36B2DA128C3C83000182DE5 /* Verbes */,
 				F37E67E827419ED2002D316E /* Verbos */,
 			);
 			path = "Language-specific";
@@ -1077,6 +1494,60 @@
 			productReference = F35F0D63273DD2C60097B542 /* VTSwiftUIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F36B2C2228C3C6CB00182DE5 /* Verbes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36B2C9C28C3C6CB00182DE5 /* Build configuration list for PBXNativeTarget "Verbes" */;
+			buildPhases = (
+				F36B2C2328C3C6CB00182DE5 /* Sources */,
+				F36B2C8B28C3C6CB00182DE5 /* Frameworks */,
+				F36B2C8D28C3C6CB00182DE5 /* Resources */,
+				F36B2C9B28C3C6CB00182DE5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Verbes;
+			productName = VTSwiftUI;
+			productReference = F36B2C9F28C3C6CB00182DE5 /* Verbes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F36B2CA128C3C6DF00182DE5 /* Verbi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36B2D1B28C3C6DF00182DE5 /* Build configuration list for PBXNativeTarget "Verbi" */;
+			buildPhases = (
+				F36B2CA228C3C6DF00182DE5 /* Sources */,
+				F36B2D0A28C3C6DF00182DE5 /* Frameworks */,
+				F36B2D0C28C3C6DF00182DE5 /* Resources */,
+				F36B2D1A28C3C6DF00182DE5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Verbi;
+			productName = VTSwiftUI;
+			productReference = F36B2D1E28C3C6DF00182DE5 /* Verbi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F36B2D2028C3C6EA00182DE5 /* Verben */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36B2D9A28C3C6EA00182DE5 /* Build configuration list for PBXNativeTarget "Verben" */;
+			buildPhases = (
+				F36B2D2128C3C6EA00182DE5 /* Sources */,
+				F36B2D8928C3C6EA00182DE5 /* Frameworks */,
+				F36B2D8B28C3C6EA00182DE5 /* Resources */,
+				F36B2D9928C3C6EA00182DE5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Verben;
+			productName = VTSwiftUI;
+			productReference = F36B2D9D28C3C6EA00182DE5 /* Verben.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1117,6 +1588,9 @@
 				F312C8082810702700408700 /* Verbos dist */,
 				F35F0D58273DD2C60097B542 /* VTSwiftUITests */,
 				F35F0D62273DD2C60097B542 /* VTSwiftUIUITests */,
+				F36B2C2228C3C6CB00182DE5 /* Verbes */,
+				F36B2CA128C3C6DF00182DE5 /* Verbi */,
+				F36B2D2028C3C6EA00182DE5 /* Verben */,
 			);
 		};
 /* End PBXProject section */
@@ -1129,12 +1603,19 @@
 				F312C86D2810702700408700 /* info.html in Resources */,
 				F312C86E2810702700408700 /* sampleConjugation.html in Resources */,
 				F312C86F2810702700408700 /* spanish.sqlite3 in Resources */,
+				F36B2C1F28C3C6A700182DE5 /* italianverbs.sqlite3 in Resources */,
+				F36B2C2128C3C6A700182DE5 /* germanverbs.sqlite3 in Resources */,
+				F36B2DA728C3C93B00182DE5 /* help.html in Resources */,
+				F36B2DA928C3C93B00182DE5 /* changes.html in Resources */,
 				F312C8702810702700408700 /* help.html in Resources */,
+				F36B2DAD28C3C93B00182DE5 /* info.html in Resources */,
+				F36B2DAB28C3C93B00182DE5 /* SampleConjugation.html in Resources */,
 				F312C8712810702700408700 /* spanishverbs.sqlite3 in Resources */,
 				F312C8722810702700408700 /* Preview Assets.xcassets in Resources */,
 				F35B92D328BA795C00A1C09A /* push.sh in Resources */,
 				F312C8732810702700408700 /* Assets.xcassets in Resources */,
 				F312C8742810702700408700 /* changes.html in Resources */,
+				F36B2C1B28C3C6A700182DE5 /* german.sqlite3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1145,12 +1626,19 @@
 				F36BD42D27CA942E00D145B8 /* info.html in Resources */,
 				F36BD42227C9887F00D145B8 /* sampleConjugation.html in Resources */,
 				F31C7DDF2740312800110D85 /* spanish.sqlite3 in Resources */,
+				F36B2C1E28C3C6A700182DE5 /* italianverbs.sqlite3 in Resources */,
+				F36B2C2028C3C6A700182DE5 /* germanverbs.sqlite3 in Resources */,
+				F36B2DA628C3C93B00182DE5 /* help.html in Resources */,
+				F36B2DA828C3C93B00182DE5 /* changes.html in Resources */,
 				F36BD42427C9887F00D145B8 /* help.html in Resources */,
+				F36B2DAC28C3C93B00182DE5 /* info.html in Resources */,
+				F36B2DAA28C3C93B00182DE5 /* SampleConjugation.html in Resources */,
 				F39C407427432FAB0007D574 /* spanishverbs.sqlite3 in Resources */,
 				F35F0D54273DD2BF0097B542 /* Preview Assets.xcassets in Resources */,
 				F35B92D228BA795C00A1C09A /* push.sh in Resources */,
 				F35F0D51273DD2BE0097B542 /* Assets.xcassets in Resources */,
 				F36BD42727C9889B00D145B8 /* changes.html in Resources */,
+				F36B2C1A28C3C6A700182DE5 /* german.sqlite3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1170,6 +1658,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36B2C8D28C3C6CB00182DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36B2C8E28C3C6CB00182DE5 /* info.html in Resources */,
+				F36B2C8F28C3C6CB00182DE5 /* sampleConjugation.html in Resources */,
+				F36B2C9128C3C6CB00182DE5 /* italianverbs.sqlite3 in Resources */,
+				F36B2C9228C3C6CB00182DE5 /* germanverbs.sqlite3 in Resources */,
+				F36B2C9328C3C6CB00182DE5 /* help.html in Resources */,
+				F36B2C9428C3C6CB00182DE5 /* frenchverbs.sqlite3 in Resources */,
+				F36B2DA028C3C73800182DE5 /* french.sqlite3 in Resources */,
+				F36B2C9628C3C6CB00182DE5 /* Preview Assets.xcassets in Resources */,
+				F36B2C9728C3C6CB00182DE5 /* push.sh in Resources */,
+				F36B2C9828C3C6CB00182DE5 /* Assets.xcassets in Resources */,
+				F36B2C9928C3C6CB00182DE5 /* changes.html in Resources */,
+				F36B2C9A28C3C6CB00182DE5 /* german.sqlite3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36B2D0C28C3C6DF00182DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36B2D0D28C3C6DF00182DE5 /* info.html in Resources */,
+				F36B2D0E28C3C6DF00182DE5 /* sampleConjugation.html in Resources */,
+				F36B2D1028C3C6DF00182DE5 /* italianverbs.sqlite3 in Resources */,
+				F36B2D1128C3C6DF00182DE5 /* germanverbs.sqlite3 in Resources */,
+				F36B2D1228C3C6DF00182DE5 /* help.html in Resources */,
+				F36B2D1528C3C6DF00182DE5 /* Preview Assets.xcassets in Resources */,
+				F36B2D1628C3C6DF00182DE5 /* push.sh in Resources */,
+				F36B2D1728C3C6DF00182DE5 /* Assets.xcassets in Resources */,
+				F36B2D1828C3C6DF00182DE5 /* changes.html in Resources */,
+				F36B2D1928C3C6DF00182DE5 /* german.sqlite3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36B2D8B28C3C6EA00182DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36B2D8C28C3C6EA00182DE5 /* info.html in Resources */,
+				F36B2D8D28C3C6EA00182DE5 /* sampleConjugation.html in Resources */,
+				F36B2D8F28C3C6EA00182DE5 /* italianverbs.sqlite3 in Resources */,
+				F36B2D9028C3C6EA00182DE5 /* germanverbs.sqlite3 in Resources */,
+				F36B2D9128C3C6EA00182DE5 /* help.html in Resources */,
+				F36B2D9428C3C6EA00182DE5 /* Preview Assets.xcassets in Resources */,
+				F36B2D9528C3C6EA00182DE5 /* push.sh in Resources */,
+				F36B2D9628C3C6EA00182DE5 /* Assets.xcassets in Resources */,
+				F36B2D9728C3C6EA00182DE5 /* changes.html in Resources */,
+				F36B2D9828C3C6EA00182DE5 /* german.sqlite3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1196,6 +1737,63 @@
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
 		};
 		F333D758274076E300C0B960 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/input.xcfilelist",
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+				"$(SRCROOT)/output.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+		F36B2C9B28C3C6CB00182DE5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/input.xcfilelist",
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+				"$(SRCROOT)/output.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+		F36B2D1A28C3C6DF00182DE5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/input.xcfilelist",
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+				"$(SRCROOT)/output.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+		F36B2D9928C3C6EA00182DE5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1483,7 +2081,6 @@
 				F36B9EAB27BED460006895DD /* TestSettingsView.swift in Sources */,
 				F39172AC2794A88C006851AA /* OneVerbListViewModel.swift in Sources */,
 				F37E67EB27419EF5002D316E /* TenseNames-verbos.swift in Sources */,
-				F34AF1A427418DB100E87BEA /* Globals_Verbos.swift in Sources */,
 				F36BD41227C3F87A00D145B8 /* ConjugationChoiceView.swift in Sources */,
 				F34AF18D274181C700E87BEA /* Keyboard_ext.swift in Sources */,
 				F36BD40C27C2C64100D145B8 /* HistoryStack.swift in Sources */,
@@ -1526,6 +2123,336 @@
 			files = (
 				F35F0D6A273DD2C60097B542 /* VTSwiftUIUITestsLaunchTests.swift in Sources */,
 				F35F0D68273DD2C60097B542 /* VTSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36B2C2328C3C6CB00182DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36B2C2428C3C6CB00182DE5 /* VerbLists.swift in Sources */,
+				F36B2C2528C3C6CB00182DE5 /* SettingsView.swift in Sources */,
+				F36B2C2628C3C6CB00182DE5 /* MailView.swift in Sources */,
+				F36B2C2728C3C6CB00182DE5 /* SettingsSelectionView.swift in Sources */,
+				F36B2C2828C3C6CB00182DE5 /* VerblistInfinitiveRow.swift in Sources */,
+				F36B2C2928C3C6CB00182DE5 /* Collection_ext.swift in Sources */,
+				F36B2C2A28C3C6CB00182DE5 /* Keyboard_ext.swift in Sources */,
+				F36B2C2B28C3C6CB00182DE5 /* String_ext.swift in Sources */,
+				F36B2C2C28C3C6CB00182DE5 /* SettingsButtonView.swift in Sources */,
+				F36B2C2D28C3C6CB00182DE5 /* SettingsSelectionToggleRow.swift in Sources */,
+				F36B2C2E28C3C6CB00182DE5 /* FullConjugationViewModel.swift in Sources */,
+				F36B2C2F28C3C6CB00182DE5 /* HistoryStack.swift in Sources */,
+				F36B2C3028C3C6CB00182DE5 /* SelectSingleVerbView.swift in Sources */,
+				F36B2C3128C3C6CB00182DE5 /* AddToVerbListModel.swift in Sources */,
+				F36B2C3228C3C6CB00182DE5 /* HistoryView2.swift in Sources */,
+				F36B2D9F28C3C72900182DE5 /* Globals-Verbes.swift in Sources */,
+				F36B2C3328C3C6CB00182DE5 /* OneVerbListViewModel.swift in Sources */,
+				F36B2C3428C3C6CB00182DE5 /* AutoView_pad.swift in Sources */,
+				F36B2C3528C3C6CB00182DE5 /* TestView_phone.swift in Sources */,
+				F36B2C3628C3C6CB00182DE5 /* DrillViewSettingsButtonView.swift in Sources */,
+				F36B2C3728C3C6CB00182DE5 /* FileUtilities.swift in Sources */,
+				F36B2C3828C3C6CB00182DE5 /* HTMLView.swift in Sources */,
+				F36B2C3928C3C6CB00182DE5 /* TenseNames-verbos.swift in Sources */,
+				F36B2C3A28C3C6CB00182DE5 /* Globals.swift in Sources */,
+				F36B2C3B28C3C6CB00182DE5 /* AutoView_phone_2.swift in Sources */,
+				F36B2C3C28C3C6CB00182DE5 /* TestSettingsView.swift in Sources */,
+				F36B2C3D28C3C6CB00182DE5 /* Log2.swift in Sources */,
+				F36B2C3E28C3C6CB00182DE5 /* ContentView.swift in Sources */,
+				F36B2C3F28C3C6CB00182DE5 /* Params.swift in Sources */,
+				F36B2C4028C3C6CB00182DE5 /* AutoViewModel.swift in Sources */,
+				F36B2C4128C3C6CB00182DE5 /* MKPointAnnotation_ext.swift in Sources */,
+				F36B2C4228C3C6CB00182DE5 /* VerblistManagementModel.swift in Sources */,
+				F36B2C4328C3C6CB00182DE5 /* VerbAnswerView.swift in Sources */,
+				F36B2C4428C3C6CB00182DE5 /* VerbSettingGroup.swift in Sources */,
+				F36B2C4528C3C6CB00182DE5 /* Selection_new.swift in Sources */,
+				F36B2C4628C3C6CB00182DE5 /* FieldColorExtensions.swift in Sources */,
+				F36B2C4728C3C6CB00182DE5 /* SettingState.swift in Sources */,
+				F36B2C4828C3C6CB00182DE5 /* AddToVerbListView.swift in Sources */,
+				F36B2C4928C3C6CB00182DE5 /* FullConjugationView.swift in Sources */,
+				F36B2C4A28C3C6CB00182DE5 /* DisplayOptionsView2.swift in Sources */,
+				F36B2C4B28C3C6CB00182DE5 /* ActivityIndicator.swift in Sources */,
+				F36B2C4C28C3C6CB00182DE5 /* TestView_pad3.swift in Sources */,
+				F36B2C4D28C3C6CB00182DE5 /* Notifications.swift in Sources */,
+				F36B2C4E28C3C6CB00182DE5 /* TestSettingsViewModel.swift in Sources */,
+				F36B2C4F28C3C6CB00182DE5 /* AutoSettingsView2.swift in Sources */,
+				F36B2C5028C3C6CB00182DE5 /* Utilities.swift in Sources */,
+				F36B2C5128C3C6CB00182DE5 /* View_ext.swift in Sources */,
+				F36B2C5228C3C6CB00182DE5 /* VerbDisplayView.swift in Sources */,
+				F36B2C5328C3C6CB00182DE5 /* VerbListView.swift in Sources */,
+				F36B2C5428C3C6CB00182DE5 /* View Modifiers.swift in Sources */,
+				F36B2C5528C3C6CB00182DE5 /* DrillView_phone.swift in Sources */,
+				F36B2C5628C3C6CB00182DE5 /* WebView.swift in Sources */,
+				F36B2C5728C3C6CB00182DE5 /* TestStartButtons.swift in Sources */,
+				F36B2C5828C3C6CB00182DE5 /* Verb.swift in Sources */,
+				F36B2C5928C3C6CB00182DE5 /* VerbDisplayButtonsView.swift in Sources */,
+				F36B2C5A28C3C6CB00182DE5 /* AutoSettingsViewModel.swift in Sources */,
+				F36B2C5B28C3C6CB00182DE5 /* Verblist_noCloud.swift in Sources */,
+				F36B2C5C28C3C6CB00182DE5 /* HistoryViewModel.swift in Sources */,
+				F36B2C5D28C3C6CB00182DE5 /* DrillViewModel.swift in Sources */,
+				F36B2C5E28C3C6CB00182DE5 /* MainScreensViewModifier.swift in Sources */,
+				F36B2C5F28C3C6CB00182DE5 /* SettingsSelectionModel.swift in Sources */,
+				F36B2C6028C3C6CB00182DE5 /* VerbGenerator.swift in Sources */,
+				F36B2C6128C3C6CB00182DE5 /* TestViewModel.swift in Sources */,
+				F36B2C6228C3C6CB00182DE5 /* ViewOptions.swift in Sources */,
+				F36B2C6328C3C6CB00182DE5 /* SelectDrillSourceModel.swift in Sources */,
+				F36B2C6428C3C6CB00182DE5 /* ViewStyles.swift in Sources */,
+				F36B2C6528C3C6CB00182DE5 /* TestRunningButtons.swift in Sources */,
+				F36B2C6628C3C6CB00182DE5 /* Color.swift in Sources */,
+				F36B2C6728C3C6CB00182DE5 /* OneVerbListView.swift in Sources */,
+				F36B2C6828C3C6CB00182DE5 /* Environmental Objects.swift in Sources */,
+				F36B2C6928C3C6CB00182DE5 /* TestEnvironment.swift in Sources */,
+				F36B2C6A28C3C6CB00182DE5 /* TenseLocaleViewModel.swift in Sources */,
+				F36B2C6B28C3C6CB00182DE5 /* SelectDrillSourceView.swift in Sources */,
+				F36B2C6C28C3C6CB00182DE5 /* DB.swift in Sources */,
+				F36B2C6D28C3C6CB00182DE5 /* TenseNames.swift in Sources */,
+				F36B2C6F28C3C6CB00182DE5 /* SettingsViewButtonModifier.swift in Sources */,
+				F36B2C7028C3C6CB00182DE5 /* AutoViewAnswer.swift in Sources */,
+				F36B2C7128C3C6CB00182DE5 /* ViewModifiers.swift in Sources */,
+				F36B2C7228C3C6CB00182DE5 /* Orientation.swift in Sources */,
+				F36B2C7328C3C6CB00182DE5 /* ConjugationChoiceView.swift in Sources */,
+				F36B2C7428C3C6CB00182DE5 /* AutoViewSettingsButton.swift in Sources */,
+				F36B2C7528C3C6CB00182DE5 /* TestSettingsButton.swift in Sources */,
+				F36B2C7628C3C6CB00182DE5 /* DisplayOptionsModel.swift in Sources */,
+				F36B2C7728C3C6CB00182DE5 /* SelectSingleVerbModel.swift in Sources */,
+				F36B2C7828C3C6CB00182DE5 /* HistoryRow.swift in Sources */,
+				F36B2C7928C3C6CB00182DE5 /* UDefs.swift in Sources */,
+				F36B2C7A28C3C6CB00182DE5 /* enumerations.swift in Sources */,
+				F36B2C7B28C3C6CB00182DE5 /* Log.swift in Sources */,
+				F36B2C7C28C3C6CB00182DE5 /* TableTest.swift in Sources */,
+				F36B2C7D28C3C6CB00182DE5 /* AlertToast.swift in Sources */,
+				F36B2C7E28C3C6CB00182DE5 /* DrillView_pad.swift in Sources */,
+				F36B2C7F28C3C6CB00182DE5 /* VerbGeneratorModel.swift in Sources */,
+				F36B2C8028C3C6CB00182DE5 /* FrameSize.swift in Sources */,
+				F36B2C8128C3C6CB00182DE5 /* VerbState.swift in Sources */,
+				F36B2C8228C3C6CB00182DE5 /* Double_ext.swift in Sources */,
+				F36B2C8328C3C6CB00182DE5 /* Array_ext.swift in Sources */,
+				F36B2C8428C3C6CB00182DE5 /* AllVerbSettingsGroup.swift in Sources */,
+				F36B2C8528C3C6CB00182DE5 /* DeviceRotationViewModifier.swift in Sources */,
+				F36B2C8628C3C6CB00182DE5 /* Infinitives.swift in Sources */,
+				F36B2C8728C3C6CB00182DE5 /* TenseLocaleView.swift in Sources */,
+				F36B2C8828C3C6CB00182DE5 /* VTSwiftUIApp.swift in Sources */,
+				F36B2C8928C3C6CB00182DE5 /* BlurView.swift in Sources */,
+				F36B2C8A28C3C6CB00182DE5 /* HTMLViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36B2CA228C3C6DF00182DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36B2CA328C3C6DF00182DE5 /* VerbLists.swift in Sources */,
+				F36B2CA428C3C6DF00182DE5 /* SettingsView.swift in Sources */,
+				F36B2CA528C3C6DF00182DE5 /* MailView.swift in Sources */,
+				F36B2CA628C3C6DF00182DE5 /* SettingsSelectionView.swift in Sources */,
+				F36B2CA728C3C6DF00182DE5 /* VerblistInfinitiveRow.swift in Sources */,
+				F36B2CA828C3C6DF00182DE5 /* Collection_ext.swift in Sources */,
+				F36B2CA928C3C6DF00182DE5 /* Keyboard_ext.swift in Sources */,
+				F36B2CAA28C3C6DF00182DE5 /* String_ext.swift in Sources */,
+				F36B2CAB28C3C6DF00182DE5 /* SettingsButtonView.swift in Sources */,
+				F36B2CAC28C3C6DF00182DE5 /* SettingsSelectionToggleRow.swift in Sources */,
+				F36B2CAD28C3C6DF00182DE5 /* FullConjugationViewModel.swift in Sources */,
+				F36B2CAE28C3C6DF00182DE5 /* HistoryStack.swift in Sources */,
+				F36B2CAF28C3C6DF00182DE5 /* SelectSingleVerbView.swift in Sources */,
+				F36B2CB028C3C6DF00182DE5 /* AddToVerbListModel.swift in Sources */,
+				F36B2CB128C3C6DF00182DE5 /* HistoryView2.swift in Sources */,
+				F36B2CB228C3C6DF00182DE5 /* OneVerbListViewModel.swift in Sources */,
+				F36B2CB328C3C6DF00182DE5 /* AutoView_pad.swift in Sources */,
+				F36B2CB428C3C6DF00182DE5 /* TestView_phone.swift in Sources */,
+				F36B2CB528C3C6DF00182DE5 /* DrillViewSettingsButtonView.swift in Sources */,
+				F36B2CB628C3C6DF00182DE5 /* FileUtilities.swift in Sources */,
+				F36B2CB728C3C6DF00182DE5 /* HTMLView.swift in Sources */,
+				F36B2DAE28C3C9AF00182DE5 /* Globals_Verbi.swift in Sources */,
+				F36B2CB828C3C6DF00182DE5 /* TenseNames-verbos.swift in Sources */,
+				F36B2CB928C3C6DF00182DE5 /* Globals.swift in Sources */,
+				F36B2CBA28C3C6DF00182DE5 /* AutoView_phone_2.swift in Sources */,
+				F36B2CBB28C3C6DF00182DE5 /* TestSettingsView.swift in Sources */,
+				F36B2CBC28C3C6DF00182DE5 /* Log2.swift in Sources */,
+				F36B2CBD28C3C6DF00182DE5 /* ContentView.swift in Sources */,
+				F36B2CBE28C3C6DF00182DE5 /* Params.swift in Sources */,
+				F36B2CBF28C3C6DF00182DE5 /* AutoViewModel.swift in Sources */,
+				F36B2CC028C3C6DF00182DE5 /* MKPointAnnotation_ext.swift in Sources */,
+				F36B2CC128C3C6DF00182DE5 /* VerblistManagementModel.swift in Sources */,
+				F36B2CC228C3C6DF00182DE5 /* VerbAnswerView.swift in Sources */,
+				F36B2CC328C3C6DF00182DE5 /* VerbSettingGroup.swift in Sources */,
+				F36B2CC428C3C6DF00182DE5 /* Selection_new.swift in Sources */,
+				F36B2CC528C3C6DF00182DE5 /* FieldColorExtensions.swift in Sources */,
+				F36B2CC628C3C6DF00182DE5 /* SettingState.swift in Sources */,
+				F36B2CC728C3C6DF00182DE5 /* AddToVerbListView.swift in Sources */,
+				F36B2CC828C3C6DF00182DE5 /* FullConjugationView.swift in Sources */,
+				F36B2CC928C3C6DF00182DE5 /* DisplayOptionsView2.swift in Sources */,
+				F36B2CCA28C3C6DF00182DE5 /* ActivityIndicator.swift in Sources */,
+				F36B2CCB28C3C6DF00182DE5 /* TestView_pad3.swift in Sources */,
+				F36B2CCC28C3C6DF00182DE5 /* Notifications.swift in Sources */,
+				F36B2CCD28C3C6DF00182DE5 /* TestSettingsViewModel.swift in Sources */,
+				F36B2CCE28C3C6DF00182DE5 /* AutoSettingsView2.swift in Sources */,
+				F36B2CCF28C3C6DF00182DE5 /* Utilities.swift in Sources */,
+				F36B2CD028C3C6DF00182DE5 /* View_ext.swift in Sources */,
+				F36B2CD128C3C6DF00182DE5 /* VerbDisplayView.swift in Sources */,
+				F36B2CD228C3C6DF00182DE5 /* VerbListView.swift in Sources */,
+				F36B2CD328C3C6DF00182DE5 /* View Modifiers.swift in Sources */,
+				F36B2CD428C3C6DF00182DE5 /* DrillView_phone.swift in Sources */,
+				F36B2CD528C3C6DF00182DE5 /* WebView.swift in Sources */,
+				F36B2CD628C3C6DF00182DE5 /* TestStartButtons.swift in Sources */,
+				F36B2CD728C3C6DF00182DE5 /* Verb.swift in Sources */,
+				F36B2CD828C3C6DF00182DE5 /* VerbDisplayButtonsView.swift in Sources */,
+				F36B2CD928C3C6DF00182DE5 /* AutoSettingsViewModel.swift in Sources */,
+				F36B2CDA28C3C6DF00182DE5 /* Verblist_noCloud.swift in Sources */,
+				F36B2CDB28C3C6DF00182DE5 /* HistoryViewModel.swift in Sources */,
+				F36B2CDC28C3C6DF00182DE5 /* DrillViewModel.swift in Sources */,
+				F36B2CDD28C3C6DF00182DE5 /* MainScreensViewModifier.swift in Sources */,
+				F36B2CDE28C3C6DF00182DE5 /* SettingsSelectionModel.swift in Sources */,
+				F36B2CDF28C3C6DF00182DE5 /* VerbGenerator.swift in Sources */,
+				F36B2CE028C3C6DF00182DE5 /* TestViewModel.swift in Sources */,
+				F36B2CE128C3C6DF00182DE5 /* ViewOptions.swift in Sources */,
+				F36B2CE228C3C6DF00182DE5 /* SelectDrillSourceModel.swift in Sources */,
+				F36B2CE328C3C6DF00182DE5 /* ViewStyles.swift in Sources */,
+				F36B2CE428C3C6DF00182DE5 /* TestRunningButtons.swift in Sources */,
+				F36B2CE528C3C6DF00182DE5 /* Color.swift in Sources */,
+				F36B2CE628C3C6DF00182DE5 /* OneVerbListView.swift in Sources */,
+				F36B2CE728C3C6DF00182DE5 /* Environmental Objects.swift in Sources */,
+				F36B2CE828C3C6DF00182DE5 /* TestEnvironment.swift in Sources */,
+				F36B2CE928C3C6DF00182DE5 /* TenseLocaleViewModel.swift in Sources */,
+				F36B2CEA28C3C6DF00182DE5 /* SelectDrillSourceView.swift in Sources */,
+				F36B2CEB28C3C6DF00182DE5 /* DB.swift in Sources */,
+				F36B2CEC28C3C6DF00182DE5 /* TenseNames.swift in Sources */,
+				F36B2CEE28C3C6DF00182DE5 /* SettingsViewButtonModifier.swift in Sources */,
+				F36B2CEF28C3C6DF00182DE5 /* AutoViewAnswer.swift in Sources */,
+				F36B2CF028C3C6DF00182DE5 /* ViewModifiers.swift in Sources */,
+				F36B2CF128C3C6DF00182DE5 /* Orientation.swift in Sources */,
+				F36B2CF228C3C6DF00182DE5 /* ConjugationChoiceView.swift in Sources */,
+				F36B2CF328C3C6DF00182DE5 /* AutoViewSettingsButton.swift in Sources */,
+				F36B2CF428C3C6DF00182DE5 /* TestSettingsButton.swift in Sources */,
+				F36B2CF528C3C6DF00182DE5 /* DisplayOptionsModel.swift in Sources */,
+				F36B2CF628C3C6DF00182DE5 /* SelectSingleVerbModel.swift in Sources */,
+				F36B2CF728C3C6DF00182DE5 /* HistoryRow.swift in Sources */,
+				F36B2CF828C3C6DF00182DE5 /* UDefs.swift in Sources */,
+				F36B2CF928C3C6DF00182DE5 /* enumerations.swift in Sources */,
+				F36B2CFA28C3C6DF00182DE5 /* Log.swift in Sources */,
+				F36B2CFB28C3C6DF00182DE5 /* TableTest.swift in Sources */,
+				F36B2CFC28C3C6DF00182DE5 /* AlertToast.swift in Sources */,
+				F36B2CFD28C3C6DF00182DE5 /* DrillView_pad.swift in Sources */,
+				F36B2CFE28C3C6DF00182DE5 /* VerbGeneratorModel.swift in Sources */,
+				F36B2CFF28C3C6DF00182DE5 /* FrameSize.swift in Sources */,
+				F36B2D0028C3C6DF00182DE5 /* VerbState.swift in Sources */,
+				F36B2D0128C3C6DF00182DE5 /* Double_ext.swift in Sources */,
+				F36B2D0228C3C6DF00182DE5 /* Array_ext.swift in Sources */,
+				F36B2D0328C3C6DF00182DE5 /* AllVerbSettingsGroup.swift in Sources */,
+				F36B2D0428C3C6DF00182DE5 /* DeviceRotationViewModifier.swift in Sources */,
+				F36B2D0528C3C6DF00182DE5 /* Infinitives.swift in Sources */,
+				F36B2D0628C3C6DF00182DE5 /* TenseLocaleView.swift in Sources */,
+				F36B2D0728C3C6DF00182DE5 /* VTSwiftUIApp.swift in Sources */,
+				F36B2D0828C3C6DF00182DE5 /* BlurView.swift in Sources */,
+				F36B2D0928C3C6DF00182DE5 /* HTMLViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36B2D2128C3C6EA00182DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36B2D2228C3C6EA00182DE5 /* VerbLists.swift in Sources */,
+				F36B2D2328C3C6EA00182DE5 /* SettingsView.swift in Sources */,
+				F36B2DAF28C3C9B400182DE5 /* Globals_Verben.swift in Sources */,
+				F36B2D2428C3C6EA00182DE5 /* MailView.swift in Sources */,
+				F36B2D2528C3C6EA00182DE5 /* SettingsSelectionView.swift in Sources */,
+				F36B2D2628C3C6EA00182DE5 /* VerblistInfinitiveRow.swift in Sources */,
+				F36B2D2728C3C6EA00182DE5 /* Collection_ext.swift in Sources */,
+				F36B2D2828C3C6EA00182DE5 /* Keyboard_ext.swift in Sources */,
+				F36B2D2928C3C6EA00182DE5 /* String_ext.swift in Sources */,
+				F36B2D2A28C3C6EA00182DE5 /* SettingsButtonView.swift in Sources */,
+				F36B2D2B28C3C6EA00182DE5 /* SettingsSelectionToggleRow.swift in Sources */,
+				F36B2D2C28C3C6EA00182DE5 /* FullConjugationViewModel.swift in Sources */,
+				F36B2D2D28C3C6EA00182DE5 /* HistoryStack.swift in Sources */,
+				F36B2D2E28C3C6EA00182DE5 /* SelectSingleVerbView.swift in Sources */,
+				F36B2D2F28C3C6EA00182DE5 /* AddToVerbListModel.swift in Sources */,
+				F36B2D3028C3C6EA00182DE5 /* HistoryView2.swift in Sources */,
+				F36B2D3128C3C6EA00182DE5 /* OneVerbListViewModel.swift in Sources */,
+				F36B2D3228C3C6EA00182DE5 /* AutoView_pad.swift in Sources */,
+				F36B2D3328C3C6EA00182DE5 /* TestView_phone.swift in Sources */,
+				F36B2D3428C3C6EA00182DE5 /* DrillViewSettingsButtonView.swift in Sources */,
+				F36B2D3528C3C6EA00182DE5 /* FileUtilities.swift in Sources */,
+				F36B2D3628C3C6EA00182DE5 /* HTMLView.swift in Sources */,
+				F36B2D3728C3C6EA00182DE5 /* TenseNames-verbos.swift in Sources */,
+				F36B2D3828C3C6EA00182DE5 /* Globals.swift in Sources */,
+				F36B2D3928C3C6EA00182DE5 /* AutoView_phone_2.swift in Sources */,
+				F36B2D3A28C3C6EA00182DE5 /* TestSettingsView.swift in Sources */,
+				F36B2D3B28C3C6EA00182DE5 /* Log2.swift in Sources */,
+				F36B2D3C28C3C6EA00182DE5 /* ContentView.swift in Sources */,
+				F36B2D3D28C3C6EA00182DE5 /* Params.swift in Sources */,
+				F36B2D3E28C3C6EA00182DE5 /* AutoViewModel.swift in Sources */,
+				F36B2D3F28C3C6EA00182DE5 /* MKPointAnnotation_ext.swift in Sources */,
+				F36B2D4028C3C6EA00182DE5 /* VerblistManagementModel.swift in Sources */,
+				F36B2D4128C3C6EA00182DE5 /* VerbAnswerView.swift in Sources */,
+				F36B2D4228C3C6EA00182DE5 /* VerbSettingGroup.swift in Sources */,
+				F36B2D4328C3C6EA00182DE5 /* Selection_new.swift in Sources */,
+				F36B2D4428C3C6EA00182DE5 /* FieldColorExtensions.swift in Sources */,
+				F36B2D4528C3C6EA00182DE5 /* SettingState.swift in Sources */,
+				F36B2D4628C3C6EA00182DE5 /* AddToVerbListView.swift in Sources */,
+				F36B2D4728C3C6EA00182DE5 /* FullConjugationView.swift in Sources */,
+				F36B2D4828C3C6EA00182DE5 /* DisplayOptionsView2.swift in Sources */,
+				F36B2D4928C3C6EA00182DE5 /* ActivityIndicator.swift in Sources */,
+				F36B2D4A28C3C6EA00182DE5 /* TestView_pad3.swift in Sources */,
+				F36B2D4B28C3C6EA00182DE5 /* Notifications.swift in Sources */,
+				F36B2D4C28C3C6EA00182DE5 /* TestSettingsViewModel.swift in Sources */,
+				F36B2D4D28C3C6EA00182DE5 /* AutoSettingsView2.swift in Sources */,
+				F36B2D4E28C3C6EA00182DE5 /* Utilities.swift in Sources */,
+				F36B2D4F28C3C6EA00182DE5 /* View_ext.swift in Sources */,
+				F36B2D5028C3C6EA00182DE5 /* VerbDisplayView.swift in Sources */,
+				F36B2D5128C3C6EA00182DE5 /* VerbListView.swift in Sources */,
+				F36B2D5228C3C6EA00182DE5 /* View Modifiers.swift in Sources */,
+				F36B2D5328C3C6EA00182DE5 /* DrillView_phone.swift in Sources */,
+				F36B2D5428C3C6EA00182DE5 /* WebView.swift in Sources */,
+				F36B2D5528C3C6EA00182DE5 /* TestStartButtons.swift in Sources */,
+				F36B2D5628C3C6EA00182DE5 /* Verb.swift in Sources */,
+				F36B2D5728C3C6EA00182DE5 /* VerbDisplayButtonsView.swift in Sources */,
+				F36B2D5828C3C6EA00182DE5 /* AutoSettingsViewModel.swift in Sources */,
+				F36B2D5928C3C6EA00182DE5 /* Verblist_noCloud.swift in Sources */,
+				F36B2D5A28C3C6EA00182DE5 /* HistoryViewModel.swift in Sources */,
+				F36B2D5B28C3C6EA00182DE5 /* DrillViewModel.swift in Sources */,
+				F36B2D5C28C3C6EA00182DE5 /* MainScreensViewModifier.swift in Sources */,
+				F36B2D5D28C3C6EA00182DE5 /* SettingsSelectionModel.swift in Sources */,
+				F36B2D5E28C3C6EA00182DE5 /* VerbGenerator.swift in Sources */,
+				F36B2D5F28C3C6EA00182DE5 /* TestViewModel.swift in Sources */,
+				F36B2D6028C3C6EA00182DE5 /* ViewOptions.swift in Sources */,
+				F36B2D6128C3C6EA00182DE5 /* SelectDrillSourceModel.swift in Sources */,
+				F36B2D6228C3C6EA00182DE5 /* ViewStyles.swift in Sources */,
+				F36B2D6328C3C6EA00182DE5 /* TestRunningButtons.swift in Sources */,
+				F36B2D6428C3C6EA00182DE5 /* Color.swift in Sources */,
+				F36B2D6528C3C6EA00182DE5 /* OneVerbListView.swift in Sources */,
+				F36B2D6628C3C6EA00182DE5 /* Environmental Objects.swift in Sources */,
+				F36B2D6728C3C6EA00182DE5 /* TestEnvironment.swift in Sources */,
+				F36B2D6828C3C6EA00182DE5 /* TenseLocaleViewModel.swift in Sources */,
+				F36B2D6928C3C6EA00182DE5 /* SelectDrillSourceView.swift in Sources */,
+				F36B2D6A28C3C6EA00182DE5 /* DB.swift in Sources */,
+				F36B2D6B28C3C6EA00182DE5 /* TenseNames.swift in Sources */,
+				F36B2D6D28C3C6EA00182DE5 /* SettingsViewButtonModifier.swift in Sources */,
+				F36B2D6E28C3C6EA00182DE5 /* AutoViewAnswer.swift in Sources */,
+				F36B2D6F28C3C6EA00182DE5 /* ViewModifiers.swift in Sources */,
+				F36B2D7028C3C6EA00182DE5 /* Orientation.swift in Sources */,
+				F36B2D7128C3C6EA00182DE5 /* ConjugationChoiceView.swift in Sources */,
+				F36B2D7228C3C6EA00182DE5 /* AutoViewSettingsButton.swift in Sources */,
+				F36B2D7328C3C6EA00182DE5 /* TestSettingsButton.swift in Sources */,
+				F36B2D7428C3C6EA00182DE5 /* DisplayOptionsModel.swift in Sources */,
+				F36B2D7528C3C6EA00182DE5 /* SelectSingleVerbModel.swift in Sources */,
+				F36B2D7628C3C6EA00182DE5 /* HistoryRow.swift in Sources */,
+				F36B2D7728C3C6EA00182DE5 /* UDefs.swift in Sources */,
+				F36B2D7828C3C6EA00182DE5 /* enumerations.swift in Sources */,
+				F36B2D7928C3C6EA00182DE5 /* Log.swift in Sources */,
+				F36B2D7A28C3C6EA00182DE5 /* TableTest.swift in Sources */,
+				F36B2D7B28C3C6EA00182DE5 /* AlertToast.swift in Sources */,
+				F36B2D7C28C3C6EA00182DE5 /* DrillView_pad.swift in Sources */,
+				F36B2D7D28C3C6EA00182DE5 /* VerbGeneratorModel.swift in Sources */,
+				F36B2D7E28C3C6EA00182DE5 /* FrameSize.swift in Sources */,
+				F36B2D7F28C3C6EA00182DE5 /* VerbState.swift in Sources */,
+				F36B2D8028C3C6EA00182DE5 /* Double_ext.swift in Sources */,
+				F36B2D8128C3C6EA00182DE5 /* Array_ext.swift in Sources */,
+				F36B2D8228C3C6EA00182DE5 /* AllVerbSettingsGroup.swift in Sources */,
+				F36B2D8328C3C6EA00182DE5 /* DeviceRotationViewModifier.swift in Sources */,
+				F36B2D8428C3C6EA00182DE5 /* Infinitives.swift in Sources */,
+				F36B2D8528C3C6EA00182DE5 /* TenseLocaleView.swift in Sources */,
+				F36B2D8628C3C6EA00182DE5 /* VTSwiftUIApp.swift in Sources */,
+				F36B2D8728C3C6EA00182DE5 /* BlurView.swift in Sources */,
+				F36B2D8828C3C6EA00182DE5 /* HTMLViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1889,6 +2816,201 @@
 			};
 			name = Release;
 		};
+		F36B2C9D28C3C6CB00182DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VTSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = F7KQVY794N;
+				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Verbos copy2-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verbtrainers.verbes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F36B2C9E28C3C6CB00182DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VTSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = F7KQVY794N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Verbos copy2-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verbtrainers.verbes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F36B2D1C28C3C6DF00182DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VTSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = F7KQVY794N;
+				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Verbos copy3-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verbtrainers.verbos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F36B2D1D28C3C6DF00182DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VTSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = F7KQVY794N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Verbos copy3-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verbtrainers.verbos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F36B2D9B28C3C6EA00182DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VTSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = F7KQVY794N;
+				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Verbos copy4-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verbtrainers.verbos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F36B2D9C28C3C6EA00182DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VTSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = F7KQVY794N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Verbos copy4-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verbtrainers.verbos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1933,6 +3055,33 @@
 			buildConfigurations = (
 				F35F0D74273DD2C60097B542 /* Debug */,
 				F35F0D75273DD2C60097B542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36B2C9C28C3C6CB00182DE5 /* Build configuration list for PBXNativeTarget "Verbes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36B2C9D28C3C6CB00182DE5 /* Debug */,
+				F36B2C9E28C3C6CB00182DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36B2D1B28C3C6DF00182DE5 /* Build configuration list for PBXNativeTarget "Verbi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36B2D1C28C3C6DF00182DE5 /* Debug */,
+				F36B2D1D28C3C6DF00182DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36B2D9A28C3C6EA00182DE5 /* Build configuration list for PBXNativeTarget "Verben" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36B2D9B28C3C6EA00182DE5 /* Debug */,
+				F36B2D9C28C3C6EA00182DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

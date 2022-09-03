@@ -20,11 +20,13 @@ struct DrillView_phone: View {
     
     var borderLineWidth = 1.0
     var borderColor = UIDevice.current.userInterfaceIdiom == .pad ? Color("ButtonBorder") : Color.clear
-    
+    var paddingHeight = 0.0
     
     init(showAnswerSwitch: Binding<Bool>) {
         Log.print("DrillView init", logLevel: 2)
         self._showAnswerSwitch = showAnswerSwitch
+        
+
     }
     
     var body: some View {
@@ -106,6 +108,7 @@ struct DrillView_phone: View {
         .frame(width: UIScreen.main.bounds.width * 0.95)
         //        .frame(height: UIScreen.main.bounds.height)
         .padding(.bottom, 10)
+        .padding(.top, 50)
         
         
         .sheet(isPresented: $showVerbSelectionModeView) {

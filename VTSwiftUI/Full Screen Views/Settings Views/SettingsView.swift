@@ -60,8 +60,8 @@ struct SettingsView: View {
                                     .fixedSize(horizontal: false, vertical: true)
                             }
                             
-                            NavigationLink(destination: ConjugationChoiceView(infStr: $environmentObjects.selectedInfinitive)) {
-                                SettingsButtonView(captionStr: "Conjugation", imageStr: "server.rack")
+                            NavigationLink(destination: TenseLocaleView(showTenseLocaleView: $showTenseLocaleView)) {
+                                SettingsButtonView(captionStr: "Tense Locale.", imageStr: "list.bullet.rectangle")
                                     .frame(width: geo.size.width * 0.2, height: geo.size.width * 0.2)
                                     .overlay(
                                         RoundedRectangle(cornerRadius: 5)
@@ -70,6 +70,8 @@ struct SettingsView: View {
                                     .background(Color.clear)
                                     .fixedSize(horizontal: false, vertical: true)
                             }
+                            
+
                             
                             HStack {
                                 Spacer()
@@ -107,8 +109,8 @@ struct SettingsView: View {
                                     .fixedSize(horizontal: false, vertical: true)
                             }
                             
-                            NavigationLink(destination: HTMLView(htmlFileName: "changes.html", whichView: .changes_view)) {
-                                SettingsButtonView(captionStr: "Changes", imageStr: "arrow.up.right.and.arrow.down.left.rectangle")
+                            NavigationLink(destination: ConjugationChoiceView(infStr: $environmentObjects.selectedInfinitive)) {
+                                SettingsButtonView(captionStr: "Conjugation", imageStr: "server.rack")
                                     .frame(width: geo.size.width * 0.2, height: geo.size.width * 0.2)
                                     .overlay(
                                         RoundedRectangle(cornerRadius: 5)
@@ -117,6 +119,8 @@ struct SettingsView: View {
                                     .background(Color.clear)
                                     .fixedSize(horizontal: false, vertical: true)
                             }
+                            
+
                             HStack {
                                 Spacer()
                                 
@@ -127,6 +131,17 @@ struct SettingsView: View {
                             HStack {
                                 Spacer()
                             } // HStack:89
+                            
+                            NavigationLink(destination: HTMLView(htmlFileName: "changes.html", whichView: .changes_view)) {
+                                SettingsButtonView(captionStr: "Changes", imageStr: "arrow.up.right.and.arrow.down.left.rectangle")
+                                    .frame(width: geo.size.width * 0.2, height: geo.size.width * 0.2)
+                                    .overlay(
+                                        RoundedRectangle(cornerRadius: 5)
+                                            .stroke(Color("ButtonBorder"), lineWidth: borderLineWidth)
+                                    )
+                                    .background(Color.clear)
+                                    .fixedSize(horizontal: false, vertical: true)
+                            }
                             NavigationLink(destination: HTMLView(htmlFileName: "info.html", whichView: .info_view)) {
                                 SettingsButtonView(captionStr: "Information", imageStr: "info.circle")
                                     .frame(width: geo.size.width * 0.2, height: geo.size.width * 0.2)
@@ -159,16 +174,7 @@ struct SettingsView: View {
                                 .foregroundColor(Color("ViewForeground"))
                                 .fixedSize(horizontal: false, vertical: true)
 
-                            NavigationLink(destination: TenseLocaleView(showTenseLocaleView: $showTenseLocaleView)) {
-                                SettingsButtonView(captionStr: "Tense Locale.", imageStr: "list.bullet.rectangle")
-                                    .frame(width: geo.size.width * 0.2, height: geo.size.width * 0.2)
-                                    .overlay(
-                                        RoundedRectangle(cornerRadius: 5)
-                                            .stroke(Color("ButtonBorder"), lineWidth: borderLineWidth)
-                                    )
-                                    .background(Color.clear)
-                                    .fixedSize(horizontal: false, vertical: true)
-                            }
+ 
                             Spacer()
                         } // HStack:88
                         

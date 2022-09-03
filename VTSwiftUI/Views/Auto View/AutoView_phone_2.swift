@@ -81,6 +81,7 @@ struct AutoView_phone: View {
             HStack {
                 Spacer()
                 AutoViewSettingsButtonView(showAutoSettingsView: $showAutoSettingsView , modeString: environmentals.drillSource)
+                    .environmentObject(model)
                 //                    .border(Color.red)
                     .frame(width: 120, height: 90, alignment: .top)
                     .zIndex(2)
