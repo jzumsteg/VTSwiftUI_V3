@@ -23,7 +23,7 @@
 		F312C80A2810702700408700 /* VerbLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F81D2788F29F00CDCBEA /* VerbLists.swift */; };
 		F312C80B2810702700408700 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D7E273DE2D90097B542 /* SettingsView.swift */; };
 		F312C80C2810702700408700 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43027CAFF0A00D145B8 /* MailView.swift */; };
-		F312C80D2810702700408700 /* SettingsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AC275955960021A3F7 /* SettingsSelectionView.swift */; };
+		F312C80D2810702700408700 /* Verbos-SettingsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AC275955960021A3F7 /* Verbos-SettingsSelectionView.swift */; };
 		F312C80E2810702700408700 /* VerblistInfinitiveRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F827278A4FB300CDCBEA /* VerblistInfinitiveRow.swift */; };
 		F312C80F2810702700408700 /* Collection_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF189274181C700E87BEA /* Collection_ext.swift */; };
 		F312C8102810702700408700 /* Keyboard_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF187274181C700E87BEA /* Keyboard_ext.swift */; };
@@ -172,7 +172,7 @@
 		F34AF1A327418DB100E87BEA /* Globals_Verbos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19A27418DB000E87BEA /* Globals_Verbos.swift */; };
 		F34AF1A62741906800E87BEA /* FileUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF1A52741901A00E87BEA /* FileUtilities.swift */; };
 		F34AF1A72741906900E87BEA /* FileUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF1A52741901A00E87BEA /* FileUtilities.swift */; };
-		F352D8AD275955960021A3F7 /* SettingsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AC275955960021A3F7 /* SettingsSelectionView.swift */; };
+		F352D8AD275955960021A3F7 /* Verbos-SettingsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AC275955960021A3F7 /* Verbos-SettingsSelectionView.swift */; };
 		F352D8AF275956960021A3F7 /* SettingsSelectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AE275956960021A3F7 /* SettingsSelectionModel.swift */; };
 		F352D8B0275956960021A3F7 /* SettingsSelectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AE275956960021A3F7 /* SettingsSelectionModel.swift */; };
 		F352D8B2275956D40021A3F7 /* SettingsSelectionToggleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8B1275956D40021A3F7 /* SettingsSelectionToggleRow.swift */; };
@@ -194,7 +194,6 @@
 		F36B2C2428C3C6CB00182DE5 /* VerbLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F81D2788F29F00CDCBEA /* VerbLists.swift */; };
 		F36B2C2528C3C6CB00182DE5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D7E273DE2D90097B542 /* SettingsView.swift */; };
 		F36B2C2628C3C6CB00182DE5 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43027CAFF0A00D145B8 /* MailView.swift */; };
-		F36B2C2728C3C6CB00182DE5 /* SettingsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AC275955960021A3F7 /* SettingsSelectionView.swift */; };
 		F36B2C2828C3C6CB00182DE5 /* VerblistInfinitiveRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F827278A4FB300CDCBEA /* VerblistInfinitiveRow.swift */; };
 		F36B2C2928C3C6CB00182DE5 /* Collection_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF189274181C700E87BEA /* Collection_ext.swift */; };
 		F36B2C2A28C3C6CB00182DE5 /* Keyboard_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF187274181C700E87BEA /* Keyboard_ext.swift */; };
@@ -308,7 +307,6 @@
 		F36B2CA328C3C6DF00182DE5 /* VerbLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F81D2788F29F00CDCBEA /* VerbLists.swift */; };
 		F36B2CA428C3C6DF00182DE5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D7E273DE2D90097B542 /* SettingsView.swift */; };
 		F36B2CA528C3C6DF00182DE5 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43027CAFF0A00D145B8 /* MailView.swift */; };
-		F36B2CA628C3C6DF00182DE5 /* SettingsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AC275955960021A3F7 /* SettingsSelectionView.swift */; };
 		F36B2CA728C3C6DF00182DE5 /* VerblistInfinitiveRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F827278A4FB300CDCBEA /* VerblistInfinitiveRow.swift */; };
 		F36B2CA828C3C6DF00182DE5 /* Collection_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF189274181C700E87BEA /* Collection_ext.swift */; };
 		F36B2CA928C3C6DF00182DE5 /* Keyboard_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF187274181C700E87BEA /* Keyboard_ext.swift */; };
@@ -421,7 +419,6 @@
 		F36B2D2228C3C6EA00182DE5 /* VerbLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F81D2788F29F00CDCBEA /* VerbLists.swift */; };
 		F36B2D2328C3C6EA00182DE5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F0D7E273DE2D90097B542 /* SettingsView.swift */; };
 		F36B2D2428C3C6EA00182DE5 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BD43027CAFF0A00D145B8 /* MailView.swift */; };
-		F36B2D2528C3C6EA00182DE5 /* SettingsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352D8AC275955960021A3F7 /* SettingsSelectionView.swift */; };
 		F36B2D2628C3C6EA00182DE5 /* VerblistInfinitiveRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316F827278A4FB300CDCBEA /* VerblistInfinitiveRow.swift */; };
 		F36B2D2728C3C6EA00182DE5 /* Collection_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF189274181C700E87BEA /* Collection_ext.swift */; };
 		F36B2D2828C3C6EA00182DE5 /* Keyboard_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF187274181C700E87BEA /* Keyboard_ext.swift */; };
@@ -533,16 +530,11 @@
 		F36B2D9828C3C6EA00182DE5 /* german.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F36B2C1628C3C6A600182DE5 /* german.sqlite3 */; };
 		F36B2D9F28C3C72900182DE5 /* Globals-Verbes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19627418DB000E87BEA /* Globals-Verbes.swift */; };
 		F36B2DA028C3C73800182DE5 /* french.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F31C7DDB2740312800110D85 /* french.sqlite3 */; };
-		F36B2DA628C3C93B00182DE5 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA228C3C93B00182DE5 /* help.html */; };
-		F36B2DA728C3C93B00182DE5 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA228C3C93B00182DE5 /* help.html */; };
-		F36B2DA828C3C93B00182DE5 /* changes.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA328C3C93B00182DE5 /* changes.html */; };
-		F36B2DA928C3C93B00182DE5 /* changes.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA328C3C93B00182DE5 /* changes.html */; };
 		F36B2DAA28C3C93B00182DE5 /* SampleConjugation.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA428C3C93B00182DE5 /* SampleConjugation.html */; };
 		F36B2DAB28C3C93B00182DE5 /* SampleConjugation.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA428C3C93B00182DE5 /* SampleConjugation.html */; };
-		F36B2DAC28C3C93B00182DE5 /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA528C3C93B00182DE5 /* info.html */; };
-		F36B2DAD28C3C93B00182DE5 /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = F36B2DA528C3C93B00182DE5 /* info.html */; };
 		F36B2DAE28C3C9AF00182DE5 /* Globals_Verbi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19727418DB000E87BEA /* Globals_Verbi.swift */; };
 		F36B2DAF28C3C9B400182DE5 /* Globals_Verben.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34AF19927418DB000E87BEA /* Globals_Verben.swift */; };
+		F36B2DB128C3D20B00182DE5 /* Verbes-SettingselectionView.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B2DB028C3D20B00182DE5 /* Verbes-SettingselectionView.swift.swift */; };
 		F36B9E4727B976A3006895DD /* DisplayOptionsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E4627B976A3006895DD /* DisplayOptionsView2.swift */; };
 		F36B9E4827B976A3006895DD /* DisplayOptionsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E4627B976A3006895DD /* DisplayOptionsView2.swift */; };
 		F36B9E8927BADA19006895DD /* DrillViewSettingsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B9E8827BADA19006895DD /* DrillViewSettingsButtonView.swift */; };
@@ -738,7 +730,7 @@
 		F34AF19927418DB000E87BEA /* Globals_Verben.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals_Verben.swift; sourceTree = "<group>"; };
 		F34AF19A27418DB000E87BEA /* Globals_Verbos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals_Verbos.swift; sourceTree = "<group>"; };
 		F34AF1A52741901A00E87BEA /* FileUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtilities.swift; sourceTree = "<group>"; };
-		F352D8AC275955960021A3F7 /* SettingsSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSelectionView.swift; sourceTree = "<group>"; };
+		F352D8AC275955960021A3F7 /* Verbos-SettingsSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Verbos-SettingsSelectionView.swift"; sourceTree = "<group>"; };
 		F352D8AE275956960021A3F7 /* SettingsSelectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSelectionModel.swift; sourceTree = "<group>"; };
 		F352D8B1275956D40021A3F7 /* SettingsSelectionToggleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSelectionToggleRow.swift; sourceTree = "<group>"; };
 		F35B92D128BA795C00A1C09A /* push.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = push.sh; sourceTree = "<group>"; };
@@ -764,10 +756,8 @@
 		F36B2D1F28C3C6E000182DE5 /* Verbos copy3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Verbos copy3-Info.plist"; path = "/Volumes/User Drive/Development/ios/VTSwiftUI_V3/Verbos copy3-Info.plist"; sourceTree = "<absolute>"; };
 		F36B2D9D28C3C6EA00182DE5 /* Verben.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Verben.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36B2D9E28C3C6EA00182DE5 /* Verbos copy4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Verbos copy4-Info.plist"; path = "/Volumes/User Drive/Development/ios/VTSwiftUI_V3/Verbos copy4-Info.plist"; sourceTree = "<absolute>"; };
-		F36B2DA228C3C93B00182DE5 /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
-		F36B2DA328C3C93B00182DE5 /* changes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = changes.html; sourceTree = "<group>"; };
 		F36B2DA428C3C93B00182DE5 /* SampleConjugation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SampleConjugation.html; sourceTree = "<group>"; };
-		F36B2DA528C3C93B00182DE5 /* info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = info.html; sourceTree = "<group>"; };
+		F36B2DB028C3D20B00182DE5 /* Verbes-SettingselectionView.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Verbes-SettingselectionView.swift.swift"; sourceTree = "<group>"; };
 		F36B9E4627B976A3006895DD /* DisplayOptionsView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayOptionsView2.swift; sourceTree = "<group>"; };
 		F36B9E8827BADA19006895DD /* DrillViewSettingsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillViewSettingsButtonView.swift; sourceTree = "<group>"; };
 		F36B9E8F27BC2518006895DD /* TestRunningButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRunningButtons.swift; sourceTree = "<group>"; };
@@ -1098,9 +1088,10 @@
 		F352D8AB275955740021A3F7 /* SettingsSelectionView */ = {
 			isa = PBXGroup;
 			children = (
-				F352D8AC275955960021A3F7 /* SettingsSelectionView.swift */,
+				F352D8AC275955960021A3F7 /* Verbos-SettingsSelectionView.swift */,
 				F352D8AE275956960021A3F7 /* SettingsSelectionModel.swift */,
 				F352D8B1275956D40021A3F7 /* SettingsSelectionToggleRow.swift */,
+				F36B2DB028C3D20B00182DE5 /* Verbes-SettingselectionView.swift.swift */,
 			);
 			path = SettingsSelectionView;
 			sourceTree = "<group>";
@@ -1214,9 +1205,6 @@
 		F36B2DA128C3C83000182DE5 /* Verbes */ = {
 			isa = PBXGroup;
 			children = (
-				F36B2DA328C3C93B00182DE5 /* changes.html */,
-				F36B2DA228C3C93B00182DE5 /* help.html */,
-				F36B2DA528C3C93B00182DE5 /* info.html */,
 				F36B2DA428C3C93B00182DE5 /* SampleConjugation.html */,
 			);
 			path = Verbes;
@@ -1605,10 +1593,7 @@
 				F312C86F2810702700408700 /* spanish.sqlite3 in Resources */,
 				F36B2C1F28C3C6A700182DE5 /* italianverbs.sqlite3 in Resources */,
 				F36B2C2128C3C6A700182DE5 /* germanverbs.sqlite3 in Resources */,
-				F36B2DA728C3C93B00182DE5 /* help.html in Resources */,
-				F36B2DA928C3C93B00182DE5 /* changes.html in Resources */,
 				F312C8702810702700408700 /* help.html in Resources */,
-				F36B2DAD28C3C93B00182DE5 /* info.html in Resources */,
 				F36B2DAB28C3C93B00182DE5 /* SampleConjugation.html in Resources */,
 				F312C8712810702700408700 /* spanishverbs.sqlite3 in Resources */,
 				F312C8722810702700408700 /* Preview Assets.xcassets in Resources */,
@@ -1628,10 +1613,7 @@
 				F31C7DDF2740312800110D85 /* spanish.sqlite3 in Resources */,
 				F36B2C1E28C3C6A700182DE5 /* italianverbs.sqlite3 in Resources */,
 				F36B2C2028C3C6A700182DE5 /* germanverbs.sqlite3 in Resources */,
-				F36B2DA628C3C93B00182DE5 /* help.html in Resources */,
-				F36B2DA828C3C93B00182DE5 /* changes.html in Resources */,
 				F36BD42427C9887F00D145B8 /* help.html in Resources */,
-				F36B2DAC28C3C93B00182DE5 /* info.html in Resources */,
 				F36B2DAA28C3C93B00182DE5 /* SampleConjugation.html in Resources */,
 				F39C407427432FAB0007D574 /* spanishverbs.sqlite3 in Resources */,
 				F35F0D54273DD2BF0097B542 /* Preview Assets.xcassets in Resources */,
@@ -1822,7 +1804,7 @@
 				F312C80A2810702700408700 /* VerbLists.swift in Sources */,
 				F312C80B2810702700408700 /* SettingsView.swift in Sources */,
 				F312C80C2810702700408700 /* MailView.swift in Sources */,
-				F312C80D2810702700408700 /* SettingsSelectionView.swift in Sources */,
+				F312C80D2810702700408700 /* Verbos-SettingsSelectionView.swift in Sources */,
 				F312C80E2810702700408700 /* VerblistInfinitiveRow.swift in Sources */,
 				F312C80F2810702700408700 /* Collection_ext.swift in Sources */,
 				F312C8102810702700408700 /* Keyboard_ext.swift in Sources */,
@@ -1932,7 +1914,7 @@
 				F316F81E2788F29F00CDCBEA /* VerbLists.swift in Sources */,
 				F3CC7F1427D3F733002B7B20 /* SettingsView.swift in Sources */,
 				F36BD43127CAFF0A00D145B8 /* MailView.swift in Sources */,
-				F352D8AD275955960021A3F7 /* SettingsSelectionView.swift in Sources */,
+				F352D8AD275955960021A3F7 /* Verbos-SettingsSelectionView.swift in Sources */,
 				F316F828278A4FB300CDCBEA /* VerblistInfinitiveRow.swift in Sources */,
 				F34AF18E274181C700E87BEA /* Collection_ext.swift in Sources */,
 				F34AF18C274181C700E87BEA /* Keyboard_ext.swift in Sources */,
@@ -2133,7 +2115,6 @@
 				F36B2C2428C3C6CB00182DE5 /* VerbLists.swift in Sources */,
 				F36B2C2528C3C6CB00182DE5 /* SettingsView.swift in Sources */,
 				F36B2C2628C3C6CB00182DE5 /* MailView.swift in Sources */,
-				F36B2C2728C3C6CB00182DE5 /* SettingsSelectionView.swift in Sources */,
 				F36B2C2828C3C6CB00182DE5 /* VerblistInfinitiveRow.swift in Sources */,
 				F36B2C2928C3C6CB00182DE5 /* Collection_ext.swift in Sources */,
 				F36B2C2A28C3C6CB00182DE5 /* Keyboard_ext.swift in Sources */,
@@ -2178,6 +2159,7 @@
 				F36B2C5028C3C6CB00182DE5 /* Utilities.swift in Sources */,
 				F36B2C5128C3C6CB00182DE5 /* View_ext.swift in Sources */,
 				F36B2C5228C3C6CB00182DE5 /* VerbDisplayView.swift in Sources */,
+				F36B2DB128C3D20B00182DE5 /* Verbes-SettingselectionView.swift.swift in Sources */,
 				F36B2C5328C3C6CB00182DE5 /* VerbListView.swift in Sources */,
 				F36B2C5428C3C6CB00182DE5 /* View Modifiers.swift in Sources */,
 				F36B2C5528C3C6CB00182DE5 /* DrillView_phone.swift in Sources */,
@@ -2243,7 +2225,6 @@
 				F36B2CA328C3C6DF00182DE5 /* VerbLists.swift in Sources */,
 				F36B2CA428C3C6DF00182DE5 /* SettingsView.swift in Sources */,
 				F36B2CA528C3C6DF00182DE5 /* MailView.swift in Sources */,
-				F36B2CA628C3C6DF00182DE5 /* SettingsSelectionView.swift in Sources */,
 				F36B2CA728C3C6DF00182DE5 /* VerblistInfinitiveRow.swift in Sources */,
 				F36B2CA828C3C6DF00182DE5 /* Collection_ext.swift in Sources */,
 				F36B2CA928C3C6DF00182DE5 /* Keyboard_ext.swift in Sources */,
@@ -2354,7 +2335,6 @@
 				F36B2D2328C3C6EA00182DE5 /* SettingsView.swift in Sources */,
 				F36B2DAF28C3C9B400182DE5 /* Globals_Verben.swift in Sources */,
 				F36B2D2428C3C6EA00182DE5 /* MailView.swift in Sources */,
-				F36B2D2528C3C6EA00182DE5 /* SettingsSelectionView.swift in Sources */,
 				F36B2D2628C3C6EA00182DE5 /* VerblistInfinitiveRow.swift in Sources */,
 				F36B2D2728C3C6EA00182DE5 /* Collection_ext.swift in Sources */,
 				F36B2D2828C3C6EA00182DE5 /* Keyboard_ext.swift in Sources */,
